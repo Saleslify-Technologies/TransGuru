@@ -4,15 +4,25 @@ function bootMotion() {
   if (!document.body.classList.contains("marketing-page")) return;
 
   const root = document.documentElement;
+  const routeTabs = document.querySelector(".route-tabs");
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const desktopRoutes = window.matchMedia("(min-width: 1000px)");
+  const compactMotion = window.matchMedia("(max-width: 760px)");
+
+  updateRouteOrientation();
+  desktopRoutes.addEventListener("change", updateRouteOrientation);
+  if (compactMotion.matches) {
+    root.dataset.motion = "reduced";
+    root.dataset.motionReady = "true";
+    return;
+  }
+
   const header = document.querySelector(".site-header");
   const heroScene = document.querySelector("[data-hero-scene]");
   const parallaxLayers = heroScene
     ? [...heroScene.querySelectorAll("[data-parallax]")]
     : [];
   const revealElements = [...document.querySelectorAll("[data-reveal]")];
-  const routeTabs = document.querySelector(".route-tabs");
-  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-  const desktopRoutes = window.matchMedia("(min-width: 1000px)");
   let documentHidden = document.hidden;
   let heroInView = false;
   let scrollFrame = 0;
@@ -45,7 +55,7 @@ function bootMotion() {
       : null;
 
   function motionState() {
-    if (reducedMotion.matches) return "reduced";
+    if (reducedMotion.matches || compactMotion.matches) return "reduced";
     if (documentHidden) return "paused";
     return "running";
   }
@@ -176,7 +186,7 @@ function bootMotion() {
   window.addEventListener("resize", requestScrollUpdate);
   window.addEventListener("transguru:routechange", animateRouteChange);
   reducedMotion.addEventListener("change", syncMotionState);
-  desktopRoutes.addEventListener("change", updateRouteOrientation);
+  compactMotion.addEventListener("change", syncMotionState);
 
   for (const element of revealElements) {
     if (element.getBoundingClientRect().top < window.innerHeight * 0.94) {
@@ -186,7 +196,6 @@ function bootMotion() {
 
   heroObserver?.observe(heroScene);
   if (!heroObserver && heroScene) heroInView = true;
-  updateRouteOrientation();
   root.dataset.motionReady = "true";
   syncMotionState();
   updateScrollState();

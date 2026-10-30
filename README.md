@@ -36,7 +36,7 @@ This runs Lighthouse against the built site with mobile and desktop profiles. Al
 - `scripts/`: allowlist build, local server, link check, and Lighthouse gate.
 - `docs/`: design evidence and product claim sources. These files are not published.
 
-No framework, external runtime dependency, remote font, analytics script, cookie, form submission, or cloud API is needed. Production CSS is bundled into one entry per page type; CSS and JavaScript are minified with esbuild during the static build. Checklist state stays in memory and resets on reload. The product scene floats once for four seconds and respects the system reduced-motion setting. Motion pauses while the page is hidden.
+No framework, external runtime dependency, remote font, analytics script, cookie, form submission, or cloud API is needed. Production CSS is bundled into one entry per page type; CSS and JavaScript are minified with esbuild during the static build. Checklist state stays in memory and resets on reload. Desktop artwork floats once for four seconds and respects the system reduced-motion setting. Phone-sized viewports use a stable scene without parallax observers or automatic animation. Desktop motion pauses while the page is hidden.
 
 ## Languages and content
 

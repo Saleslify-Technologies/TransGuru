@@ -121,7 +121,7 @@ class MediaQueryStub extends EventTargetStub {
   }
 }
 
-function createRuntime({ reduced = false } = {}) {
+function createRuntime({ reduced = false, compact = false } = {}) {
   const root = new ElementStub();
   const body = new ElementStub();
   body.classList.add("marketing-page");
@@ -160,13 +160,18 @@ function createRuntime({ reduced = false } = {}) {
   });
 
   const reducedQuery = new MediaQueryStub(reduced);
-  const desktopQuery = new MediaQueryStub(true);
+  const desktopQuery = new MediaQueryStub(!compact);
+  const compactQuery = new MediaQueryStub(compact);
   const window = new EventTargetStub();
   Object.assign(window, {
     innerHeight: 800,
     scrollY: 0,
     matchMedia: (query) =>
-      query.includes("prefers-reduced-motion") ? reducedQuery : desktopQuery,
+      query.includes("prefers-reduced-motion")
+        ? reducedQuery
+        : query.includes("max-width")
+          ? compactQuery
+          : desktopQuery,
   });
 
   const observers = [];
@@ -223,6 +228,7 @@ function createRuntime({ reduced = false } = {}) {
   });
 
   return {
+    compactQuery,
     desktopQuery,
     document,
     flushFrames,
@@ -252,6 +258,32 @@ test("reduced motion starts static and never animates route changes", () => {
     ).length,
     0,
   );
+});
+
+test("a compact viewport starts static without observers or parallax work", () => {
+  const runtime = createRuntime({ compact: true });
+
+  assert.equal(runtime.root.dataset.motion, "reduced");
+  assert.equal(runtime.root.dataset.motionReady, "true");
+  assert.equal(runtime.observers.length, 0);
+  assert.equal(runtime.routeTabs.getAttribute("aria-orientation"), "horizontal");
+  runtime.window.dispatchEvent({ type: "scroll" });
+  runtime.window.dispatchEvent({ type: "transguru:routechange" });
+  runtime.flushFrames();
+  assert.equal(runtime.layer.style.getPropertyValue("--parallax-y"), "");
+  assert.equal(Object.values(runtime.routeTargets).some((element) => element.animations.length), false);
+
+  runtime.desktopQuery.setMatches(true);
+  assert.equal(runtime.routeTabs.getAttribute("aria-orientation"), "vertical");
+});
+
+test("entering a compact viewport stops an active desktop scene", () => {
+  const runtime = createRuntime();
+  runtime.compactQuery.setMatches(true);
+
+  assert.equal(runtime.root.dataset.motion, "reduced");
+  assert.equal(runtime.layer.style.getPropertyValue("--parallax-y"), "0px");
+  assert.equal(runtime.reveal.classList.contains("is-visible"), true);
 });
 
 test("a hidden page pauses motion and cancels route animation until visible", () => {
