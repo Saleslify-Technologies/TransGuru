@@ -686,6 +686,11 @@ html[data-motion="paused"] .scene-float {
   }
 }
 @media (max-width: 760px) {
+  /* Render the largest mobile image immediately; keep motion on secondary cards. */
+  html[data-motion="running"] .device-layer .scene-entrance,
+  .device-layer .scene-float {
+    animation: none;
+  }
   .header-actions {
     gap: 10px;
   }

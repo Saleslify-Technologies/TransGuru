@@ -186,6 +186,21 @@ try {
         console.log(
           `${label}: ${categories.map((category) => `${category}=${Math.round(scores[category] * 100)}`).join(" ")}`,
         );
+        const metrics = [
+          "first-contentful-paint",
+          "largest-contentful-paint",
+          "speed-index",
+          "total-blocking-time",
+          "cumulative-layout-shift",
+        ];
+        console.log(
+          `${label} metrics: ${JSON.stringify({
+            ...Object.fromEntries(
+              metrics.map((metric) => [metric, report.audits[metric]?.numericValue]),
+            ),
+            benchmarkIndex: report.environment?.benchmarkIndex,
+          })}`,
+        );
 
         for (const [category, score] of Object.entries(scores)) {
           if (score < minimumScore) {
