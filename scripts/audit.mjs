@@ -19,8 +19,8 @@ const basePath = "/TransGuru/";
 const minimumScore = 0.95;
 const categories = ["performance", "accessibility", "best-practices", "seo"];
 const modes = [
-  { name: "mobile", flags: [] },
   { name: "desktop", flags: ["--preset=desktop"] },
+  { name: "mobile", flags: [] },
 ];
 
 function selectAuditLocales(value) {
@@ -171,6 +171,9 @@ try {
             `--output-path=${reportPath}`,
             `--only-categories=${categories.join(",")}`,
             "--chrome-flags=--headless=new --no-sandbox --disable-dev-shm-usage",
+            ...(page.pageName === "home" && mode.name === "mobile"
+              ? ["--save-assets"]
+              : []),
             ...mode.flags,
           ],
           { cwd: projectDirectory },
