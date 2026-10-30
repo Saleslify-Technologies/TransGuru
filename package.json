@@ -1,0 +1,22 @@
+{
+  "name": "transguru-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Official static website for TransGuru.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "check": "npm run test && npm run build && npm run check:links",
+    "preview": "node scripts/serve.mjs",
+    "audit": "npm run check && node scripts/audit.mjs",
+    "test": "node --test scripts/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "lighthouse": "13.6.0"
+  }
+}

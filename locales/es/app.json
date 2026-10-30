@@ -1,0 +1,208 @@
+{
+  "routes": {
+    "i2a": {
+      "title": [
+        "Pasa de iPhone.",
+        "Continúa en Android."
+      ],
+      "description": "Abre TransGuru en Android y conecta el iPhone con un cable de datos. Sigue la guía para crear y convertir la copia de seguridad y después restaurar tus chats en WhatsApp.",
+      "method": "Cable de datos USB",
+      "icon": "usb",
+      "overview": [
+        [
+          "Conecta ambos teléfonos",
+          "Conecta el cable y confirma en el iPhone que confías en el dispositivo Android."
+        ],
+        [
+          "Crea y convierte la copia",
+          "Revisa los ajustes de la copia de seguridad y selecciona la cuenta que quieres transferir."
+        ],
+        [
+          "Restaura en el teléfono nuevo",
+          "Sigue la guía para instalar WhatsApp y restaurar la copia de seguridad."
+        ]
+      ],
+      "requirements": [
+        "Un teléfono Android compatible con USB OTG",
+        "Un cable compatible con la transferencia de datos",
+        "Un iPhone desbloqueado y suficiente batería en ambos teléfonos"
+      ],
+      "caution": "Antes de restaurar, crea una copia de los chats que necesites conservar en el teléfono de destino. La migración no combina chats.",
+      "steps": [
+        [
+          "Conectar",
+          "Conecta el cable y confirma en el iPhone que confías en el dispositivo Android"
+        ],
+        [
+          "Revisar la copia",
+          "Sigue la guía para revisar la copia cifrada y los ajustes de Buscar"
+        ],
+        [
+          "Crear la copia",
+          "Crea una copia de seguridad y lee los datos de tus chats"
+        ],
+        [
+          "Preparar la restauración",
+          "Selecciona una cuenta, previsualiza los datos y confirma la sustitución"
+        ],
+        [
+          "Desinstalar",
+          "Sigue la guía para desinstalar WhatsApp del teléfono de destino"
+        ],
+        [
+          "Convertir",
+          "Crea una copia de seguridad que Android pueda restaurar"
+        ],
+        [
+          "Reinstalar",
+          "Reinstala WhatsApp desde una fuente oficial"
+        ],
+        [
+          "Restaurar",
+          "Sigue la guía de restauración de WhatsApp y verifica tus datos"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 o posterior con compatibilidad USB OTG",
+        "Un cable de datos adecuado para ambos teléfonos",
+        "Una copia independiente de los chats que quieras conservar en el teléfono de destino",
+        "Suficiente batería y espacio libre en ambos teléfonos"
+      ]
+    },
+    "a2i": {
+      "title": [
+        "Pasa de Android.",
+        "Continúa en iPhone."
+      ],
+      "description": "Crea una copia de seguridad cifrada en Android e introduce su clave cuando se te solicite. TransGuru convierte los datos y los transfiere al iPhone mediante un cable de datos.",
+      "method": "Cable de datos USB",
+      "icon": "usb",
+      "overview": [
+        [
+          "Prepara la copia de Android",
+          "Sigue la guía para crear una copia y guardar su clave de cifrado."
+        ],
+        [
+          "Descifra y convierte",
+          "Procesa la copia en el teléfono Android y prepárala para el iPhone."
+        ],
+        [
+          "Conecta y transfiere",
+          "Revisa el iPhone, transfiere los datos y después verifica tus chats."
+        ]
+      ],
+      "requirements": [
+        "El teléfono Android de origen y el iPhone de destino",
+        "La clave de cifrado correcta de 64 caracteres para la copia actual",
+        "Un teléfono Android con compatibilidad USB OTG y un cable de datos compatible"
+      ],
+      "caution": "Esta ruta sustituye los datos de WhatsApp en el iPhone. No puede combinar la copia con los chats existentes. Guarda antes una copia independiente de los datos importantes.",
+      "steps": [
+        [
+          "Crear la copia en Android",
+          "Crea una copia de seguridad cifrada y selecciona una cuenta"
+        ],
+        [
+          "Introducir la clave",
+          "Introduce y verifica la clave de cifrado de la copia"
+        ],
+        [
+          "Descifrar y convertir",
+          "Procesa y prepara los datos en Android"
+        ],
+        [
+          "Preparar la transferencia",
+          "Sigue la guía para iniciar sesión y revisar los ajustes del iPhone"
+        ],
+        [
+          "Conectar",
+          "Conecta ambos teléfonos con un cable de datos"
+        ],
+        [
+          "Realizar las comprobaciones finales",
+          "Comprueba que el iPhone esté listo"
+        ],
+        [
+          "Transferir",
+          "Mantén los teléfonos conectados y después verifica los chats y archivos multimedia"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 o posterior con compatibilidad USB OTG",
+        "La clave de cifrado correcta de 64 caracteres para la copia actual",
+        "Una copia independiente de los datos importantes de WhatsApp en el iPhone, sabiendo que la restauración los sustituirá",
+        "Un cable de datos, suficiente batería y suficiente espacio libre"
+      ]
+    },
+    "a2a": {
+      "title": [
+        "Pasa de Android.",
+        "Conserva lo importante."
+      ],
+      "description": "Abre TransGuru y activa el Wi-Fi en ambos teléfonos. Después, indica cuál es el antiguo y cuál el nuevo. La aplicación crea una conexión local para que puedas escanear y transferir la copia y los archivos multimedia. Si esta conexión no está disponible, conecta ambos teléfonos a la misma red Wi-Fi.",
+      "method": "Punto de acceso local o la misma red Wi-Fi",
+      "icon": "wifi-high",
+      "overview": [
+        [
+          "Elige el teléfono antiguo y el nuevo",
+          "Localiza los chats en el teléfono antiguo y prepara el nuevo."
+        ],
+        [
+          "Escanea y transfiere",
+          "Muestra el código en el teléfono nuevo, escanéalo y envía los datos desde el antiguo."
+        ],
+        [
+          "Restaura en el teléfono nuevo",
+          "Sigue la guía para restaurar la copia de seguridad en WhatsApp."
+        ]
+      ],
+      "requirements": [
+        "TransGuru instalado en ambos teléfonos Android",
+        "Wi-Fi activado para que la aplicación pueda crear una conexión local, o ambos teléfonos conectados a la misma red Wi-Fi",
+        "La clave de cifrado de la copia guardada si es necesaria para restaurar"
+      ],
+      "caution": "Conserva la copia de seguridad original antes de empezar y verifica los chats y archivos multimedia después de restaurar.",
+      "steps": [
+        [
+          "Elegir cada teléfono",
+          "Selecciona Teléfono nuevo en un dispositivo y Teléfono antiguo en el otro"
+        ],
+        [
+          "Preparar",
+          "Localiza la copia en el teléfono antiguo y prepara el nuevo"
+        ],
+        [
+          "Instalar e introducir la clave",
+          "Reinstala WhatsApp en el teléfono nuevo e introduce la clave del teléfono antiguo cuando sea necesario"
+        ],
+        [
+          "Escanear",
+          "Muestra el código QR en el teléfono nuevo y escanéalo con el antiguo"
+        ],
+        [
+          "Transferir",
+          "Mantén activa la conexión local mientras se envían la copia y los archivos multimedia"
+        ],
+        [
+          "Restaurar",
+          "Restaura los datos en WhatsApp en el teléfono nuevo y verifícalos"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 o posterior y compatibilidad USB OTG en ambos teléfonos",
+        "Wi-Fi activado en ambos teléfonos, sin activar manualmente un punto de acceso compartido del sistema",
+        "La copia de seguridad original y cualquier clave de cifrado necesaria están guardadas",
+        "Verificaré los chats y archivos multimedia importantes en el teléfono nuevo después de restaurar"
+      ]
+    }
+  },
+  "ui": {
+    "expandSteps": "Ver las {count} etapas",
+    "collapseSteps": "Ocultar la guía completa",
+    "stageCount": "{count} etapas guiadas",
+    "progress": "{count} de 4 listos",
+    "complete": "4 de 4 listos. Podrás empezar después del lanzamiento público.",
+    "openMenu": "Abrir el menú de navegación",
+    "closeMenu": "Cerrar el menú de navegación"
+  }
+}

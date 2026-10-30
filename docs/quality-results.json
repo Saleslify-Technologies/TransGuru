@@ -1,0 +1,1111 @@
+{
+  "date": "2026-10-30",
+  "revision": "15 complete website locales matching FamiGuru",
+  "environment": "Local static production build, Lighthouse 13.6.0, Chrome",
+  "scores": {
+    "mobile": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "desktop": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    }
+  },
+  "metrics": {
+    "mobile": {
+      "first-contentful-paint": "1.1 s",
+      "largest-contentful-paint": "2.5 s",
+      "total-blocking-time": "0 ms",
+      "cumulative-layout-shift": "0.003",
+      "testedAt": "2026-10-29T22:32:37.171Z"
+    },
+    "desktop": {
+      "first-contentful-paint": "0.3 s",
+      "largest-contentful-paint": "0.6 s",
+      "total-blocking-time": "0 ms",
+      "cumulative-layout-shift": "0",
+      "testedAt": "2026-10-29T22:32:50.391Z"
+    }
+  },
+  "sourceHashes": {
+    "templates/index.html": "787f08832a81203e1d84eb867776cf50636bd588da5b0179b99432d30fa6c719",
+    "templates/privacy.html": "899a817308f9422fa5b095552d78bacb35ee2b04aa3f69662a1318ae342d316e",
+    "templates/terms.html": "2e748809e0e708db17356bdd20617851a2343ccdd680aae64ec5c62a78865873",
+    "styles.css": "ad5adf0e2d18a018e9bbb04646bc2e6c2da2bed7482a1c9dd72ec2d9ad7bf058",
+    "experience.css": "2832b75b105b5d499441b96d30ad22b63a1e13335d72f931a7823b88de72b9d1",
+    "international.css": "af26c6406b9f88668abdb4b434fb163ffec21d9e26dc57d74d8fde4ede8a4f0c",
+    "legal.css": "7db14b64b4ae855992598500cd716ca23e0a75e9bef2f772dd40d8637923b507",
+    "app.js": "90b982af383a15c2f780f57808f05f92b49af454377776ce1af8ab8fd9ee1958",
+    "language.js": "e1df065a7e66a65212235a7e763b5c094150fe4d418db8740f2f3726039658ce",
+    "motion.js": "8a87c5b905a5891f9855770081a93973c322d079f426a103ad019f63a59b5fca",
+    "scripts/build.mjs": "0ae3ece9302a3072b87783404072aabc66950363eafabe65704c8a661fc29e09",
+    "scripts/site-locales.mjs": "34751848ba8b10490ef56fab6c6133d7830d6c3c24bfabb85e2eafc52b2ae2f8",
+    "scripts/audit.mjs": "9062a8d4f14a201c04796a18491a6a8e68a66bb9f523dc938c0b8afe9e7217bc",
+    "package.json": "41e620ce0a4e90c41f4db065030d4e4278e58726333330f40b7870a0ad859792",
+    "package-lock.json": "a061a3c7439b704e21e952419bb6df83fc831c899a0e0360d4f6c868a4f676e7",
+    "locales/en/home.json": "154229743fb2a44c98f4cf456a05ac03ceafcad3c0c21664cbcd467a6397b20d",
+    "locales/en/privacy.json": "bd77c0abac44e251691c988f3eb68f8bd7268b99caafd079b167f80bd8c3e32f",
+    "locales/en/terms.json": "4eb5aba1e773775f3c49619cad914dae9c4d30a0f9229323576913d2f0fbff4b",
+    "locales/en/app.json": "4ca329ce220c6dd8c4ffb628ccdab191575c9fd689006800c1d5d8eca07f3cf1",
+    "locales/ar/home.json": "97e59a0fc83579f41e5f5d01dc982d6f69a831b78ef94ac479105441db256cf3",
+    "locales/ar/privacy.json": "0963eed592820248a4920dbbbac1dcb613edfb58e7e6ed96cebf2a1ba8e3ad0a",
+    "locales/ar/terms.json": "727cc440f7293f0bc48e53f616651288d3323d892950cd3742865db472d0adff",
+    "locales/ar/app.json": "b9eb60fdbe67372eead0322111116115bbdbb8b1c416b071a605c8a3ee92e587",
+    "locales/de/home.json": "77c874c2873c1e5a4a425f098cc5762d029eae9bac675311fa952019d5410f1b",
+    "locales/de/privacy.json": "67120e998d4bc624bb48071b597ba2810cfb664ef36ade343dd0d11cf00669e3",
+    "locales/de/terms.json": "05fcd8f229176d20b02ea82adcac60192b74d8acdad888e010a4597ee66a83cb",
+    "locales/de/app.json": "9775ab3d1951bbe1a801bfb6d005f77abe89fbf6c268e4118c4c73f3350c97f0",
+    "locales/es/home.json": "fbec0f224bab70c944f8c4675e279ecef836619eda4f20ad0ad075843136350e",
+    "locales/es/privacy.json": "e4f84ab51271ffc93e9908b5b1c68e50296fc9429d8961427ac897476c20e9c9",
+    "locales/es/terms.json": "4122479bc0d3610fcb3c32779eff831b04dffc61fdfd44406033e7e58393f6c3",
+    "locales/es/app.json": "e565aee0e018add551c3697190cabb1adf1eb3388b96fa5fa38212b5f612add2",
+    "locales/fr/home.json": "312488e4ad02eb21fecaa4e70e504b90116fbfd615fa752938ecce7c5925a73f",
+    "locales/fr/privacy.json": "ca52704dc8324f5214454ef34be60a14c58cde7726f6719b96045b84065727c2",
+    "locales/fr/terms.json": "6216f6953869c397a1d7da1f48f31c4d63aadea76061e02d43478e865b3719e7",
+    "locales/fr/app.json": "231e027304d03b833f9f67f26e3f3ef6473786130690e2e24fa30060fa112cff",
+    "locales/hi/home.json": "79515c0f0dd8a93520cde7fc9eb77a8680fbfbb6aee858fe90bd1e4f6d41354d",
+    "locales/hi/privacy.json": "8ff093604598b6573761c9548f48ad8cf2d23a7ad8b18a0ccf63ad946b8b71d5",
+    "locales/hi/terms.json": "d6786de4155ba9300b7946f77f0dcfdb7ca1253effae1fdd1deae91a0712fbe8",
+    "locales/hi/app.json": "cbf74a8dd6e9153db482e0d172e640cc28933dd0f88f0fe90107bcf2c7194d98",
+    "locales/id/home.json": "9a598075dacd8300acbdfc9a0e483f9ce68ecd7d3dca4d86d22af0016fe8ff9a",
+    "locales/id/privacy.json": "da9eb26474640c76666a39ba116e2f42ba73f8cdc1c4e374acdc2cb3c33da33e",
+    "locales/id/terms.json": "7ed47f6061d41a24f023e7459fbc70a3459a443acf5c0022889026c04883d96a",
+    "locales/id/app.json": "c819d5ede7e0df1834aa23ce0aa454565d1a5e45d18f716db3d3f031bda125f4",
+    "locales/it/home.json": "2e3099bde2bfafa145d02a1170b952fc608f16533ff5f1099861596d4b68e262",
+    "locales/it/privacy.json": "1b9d4b62dfdc7e79ad8cbdfa066b2d53ebbbb97bb65f4e5d6143a3258de27124",
+    "locales/it/terms.json": "40e9603af9d1d02f2d2f511291b929923d072e4ea2487ff9d0903b7db71c1e58",
+    "locales/it/app.json": "76a0137f67020fafcb1af001af4fe4c793953afeffbe75f6b1ad665f3f158198",
+    "locales/ms/home.json": "368ca019e301078af0b7f47b58d7c98b54b70952e4e09c7854abed27589edeca",
+    "locales/ms/privacy.json": "3c5cda06ef618c04ac620468d7cca57ab1b9dc889f2ff50bdab840837cfaa493",
+    "locales/ms/terms.json": "37921c908a3791282d6e3ecad83827c49afe74a29f7d4d8ff2afb6e84e51e539",
+    "locales/ms/app.json": "7a5fffb5f5a605f25a2c4ef987838b9bd80c1a3573150618d978c958a8708a41",
+    "locales/nl/home.json": "43e353be4cb160eedd2d02552c665f401d7cbca492d527cab3f10a2988df3a27",
+    "locales/nl/privacy.json": "757d5e565595da5f3cc630edccfcb716f892bcf16b2b70a2884efc6ff2bb5ba5",
+    "locales/nl/terms.json": "4d53fcd395cf0ca972bb8867377b10ee706d7af807e56c318b2049d2ac914b38",
+    "locales/nl/app.json": "48467d1549f52ae8f6febd1377174c068b45ccb2fbffbe41edd4475dcc06f7a3",
+    "locales/pt/home.json": "335b14fbffe982e23ea322ae87f7a54704333a8b63639e4d86378ea87b1f600b",
+    "locales/pt/privacy.json": "faaffcf49eba1ee2133f25d7d06095a004071083615669c33e515db5433f6a75",
+    "locales/pt/terms.json": "e7b825a5443f9c240b3155a4c5724753a31e2dd3a5dee3e7dc4ea247dec9bd6d",
+    "locales/pt/app.json": "2b7ba7e9f6591f3842b00f1ed96a0c7d6d4233c3bf97c6d47e4b667710bafec1",
+    "locales/ru/home.json": "89a265224c07dbb8c4f2cc47f8f825409be67c780cce81be02bbf4b35bafb49d",
+    "locales/ru/privacy.json": "ec34a5a926ac0d9967c579b4bfb5b758ec29c68abd069343e9475fc84de52392",
+    "locales/ru/terms.json": "92f4366b18174d58cefb26d149f048b5475a2eac40d497259b0410a5bc4ae7d7",
+    "locales/ru/app.json": "8cff9cb6b34c15308ab2d9ee31f9d66942c038bcfe5bb11c394b399c7ebf6cf8",
+    "locales/tr/home.json": "c552bbe88f32b4c94702577b84f3db25bf41d1acbaaa0543bccb5879440140f3",
+    "locales/tr/privacy.json": "c4e962afd706227e611f5e37b5afea3ec90e593c6f331dce63e7c0c73212b23f",
+    "locales/tr/terms.json": "ae6c5e5e5264ec9ab914786dc93819bb683b45cf7d6d4bd2d9b3f84c9adea6fe",
+    "locales/tr/app.json": "2e6e5618add93a28ca4673dcb6d50559368aab9ed47672eb06c3f82e7135fbc4",
+    "locales/zh-CN/home.json": "55aaccc9e9705168cee3a47a17371be772a6725af43161bb09db0763be96cec1",
+    "locales/zh-CN/privacy.json": "8aa987ad18b30d296f8f4377677eb60c9fe78cbc7e05e9533f9427330924c427",
+    "locales/zh-CN/terms.json": "fb115ac9f73427309505a3fe4bb2e1fe0251471cd91e849614e05bbfa4160632",
+    "locales/zh-CN/app.json": "ddd41460068933e062fbb14910d07f4880868f890197edfd9fe45dcd6db8d5d4",
+    "locales/zh-TW/home.json": "b4814b7fabd6b439de99df32d16dd7e46f9d89f2033fbc60e28a861e2abc010d",
+    "locales/zh-TW/privacy.json": "31f20d7aea64f5ffd9b8734f0135699b3950c6977e14e7306b868b1a5403a780",
+    "locales/zh-TW/terms.json": "7dbf6a61444d126445b8c6103d20e7f2a84ab0128a1dff18830854cad3489010",
+    "locales/zh-TW/app.json": "475010b4a688b2801fe2596191ebc4545df8bc40a6966a4f026dfb6f307934d9"
+  },
+  "imageValidation": {
+    "nativePhoneMasters": [
+      1024,
+      1536
+    ],
+    "exportWidths": [
+      480,
+      900
+    ],
+    "retinaDevicePixelRatio": 2,
+    "retinaViewportWidth": 1280,
+    "selectedRetinaWidth": 900,
+    "localFontBytes": 27348
+  },
+  "pages": {
+    "en/home": {
+      "mobile": {
+        "scores": {
+          "performance": 97,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:32:37.171Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:32:50.391Z"
+      }
+    },
+    "en/privacy": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:33:03.616Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:33:18.305Z"
+      }
+    },
+    "en/terms": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:33:31.611Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:33:43.015Z"
+      }
+    },
+    "ar/home": {
+      "mobile": {
+        "scores": {
+          "performance": 95,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:33:54.554Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:34:08.947Z"
+      }
+    },
+    "ar/privacy": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:34:22.749Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:34:34.721Z"
+      }
+    },
+    "ar/terms": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:34:48.937Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:35:00.319Z"
+      }
+    },
+    "de/home": {
+      "mobile": {
+        "scores": {
+          "performance": 97,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:35:12.272Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:35:30.342Z"
+      }
+    },
+    "de/privacy": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:35:41.950Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:35:53.440Z"
+      }
+    },
+    "de/terms": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:36:08.209Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:36:21.713Z"
+      }
+    },
+    "es/home": {
+      "mobile": {
+        "scores": {
+          "performance": 96,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:36:32.935Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:36:45.157Z"
+      }
+    },
+    "es/privacy": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:36:58.439Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:37:09.942Z"
+      }
+    },
+    "es/terms": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:37:22.691Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:37:36.676Z"
+      }
+    },
+    "fr/home": {
+      "mobile": {
+        "scores": {
+          "performance": 97,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T23:01:15.486Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T23:01:27.465Z"
+      }
+    },
+    "fr/privacy": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:38:17.816Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:38:29.639Z"
+      }
+    },
+    "fr/terms": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:38:41.115Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:38:53.847Z"
+      }
+    },
+    "hi/home": {
+      "mobile": {
+        "scores": {
+          "performance": 96,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:39:05.102Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:39:18.763Z"
+      }
+    },
+    "hi/privacy": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:39:33.279Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:39:45.552Z"
+      }
+    },
+    "hi/terms": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:39:58.480Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:40:11.396Z"
+      }
+    },
+    "id/home": {
+      "mobile": {
+        "scores": {
+          "performance": 97,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:40:23.677Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:40:37.546Z"
+      }
+    },
+    "id/privacy": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:40:53.961Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:41:05.546Z"
+      }
+    },
+    "id/terms": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:41:16.723Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:41:32.052Z"
+      }
+    },
+    "it/home": {
+      "mobile": {
+        "scores": {
+          "performance": 97,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:41:45.060Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:41:57.037Z"
+      }
+    },
+    "it/privacy": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:42:12.101Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:42:25.204Z"
+      }
+    },
+    "it/terms": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:42:38.069Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:42:51.993Z"
+      }
+    },
+    "ms/home": {
+      "mobile": {
+        "scores": {
+          "performance": 97,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:43:03.815Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:43:17.479Z"
+      }
+    },
+    "ms/privacy": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:43:31.288Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:43:43.068Z"
+      }
+    },
+    "ms/terms": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:43:54.471Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:44:05.771Z"
+      }
+    },
+    "nl/home": {
+      "mobile": {
+        "scores": {
+          "performance": 98,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T23:01:39.181Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T23:01:53.748Z"
+      }
+    },
+    "nl/privacy": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:44:46.795Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:45:00.645Z"
+      }
+    },
+    "nl/terms": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:45:13.188Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:45:25.280Z"
+      }
+    },
+    "pt/home": {
+      "mobile": {
+        "scores": {
+          "performance": 98,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:45:38.368Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:45:54.526Z"
+      }
+    },
+    "pt/privacy": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:46:08.012Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:46:21.836Z"
+      }
+    },
+    "pt/terms": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:46:33.596Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:46:44.989Z"
+      }
+    },
+    "ru/home": {
+      "mobile": {
+        "scores": {
+          "performance": 96,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:46:56.778Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:47:11.246Z"
+      }
+    },
+    "ru/privacy": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:47:23.309Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:47:34.968Z"
+      }
+    },
+    "ru/terms": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:47:48.646Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:48:01.781Z"
+      }
+    },
+    "tr/home": {
+      "mobile": {
+        "scores": {
+          "performance": 95,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:48:13.523Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:48:28.067Z"
+      }
+    },
+    "tr/privacy": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:48:42.642Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:48:55.011Z"
+      }
+    },
+    "tr/terms": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:49:08.236Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:49:20.959Z"
+      }
+    },
+    "zh-CN/home": {
+      "mobile": {
+        "scores": {
+          "performance": 98,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:49:32.637Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:49:44.793Z"
+      }
+    },
+    "zh-CN/privacy": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:49:58.050Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:50:09.624Z"
+      }
+    },
+    "zh-CN/terms": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:50:26.608Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:50:39.052Z"
+      }
+    },
+    "zh-TW/home": {
+      "mobile": {
+        "scores": {
+          "performance": 98,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:50:51.044Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:51:03.439Z"
+      }
+    },
+    "zh-TW/privacy": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:51:16.734Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:51:28.357Z"
+      }
+    },
+    "zh-TW/terms": {
+      "mobile": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:51:39.607Z"
+      },
+      "desktop": {
+        "scores": {
+          "performance": 100,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "testedAt": "2026-10-29T22:51:51.638Z"
+      }
+    }
+  },
+  "locales": {
+    "default": "en",
+    "supported": [
+      "en",
+      "ar",
+      "de",
+      "es",
+      "fr",
+      "hi",
+      "id",
+      "it",
+      "ms",
+      "nl",
+      "pt",
+      "ru",
+      "tr",
+      "zh-CN",
+      "zh-TW"
+    ]
+  },
+  "motionValidation": {
+    "regressionTests": 7,
+    "reducedMotion": "VM tests of real controller and CSS review",
+    "manualPause": "Browser geometry remained unchanged",
+    "offscreen": "Hero visibility class removed at FAQ",
+    "nativeOsPreferenceToggleTested": false
+  },
+  "buildHashes": {
+    "index.html": "1d361a1d50f087b45041701404109cbcb789d41b38fc5819f76b146b59ed254f",
+    "privacy.html": "4dd302e1bdc2fa9c0372be576177fbae1a7cc705346c286f0ec4f6976f4a1893",
+    "terms.html": "2b0a52a0a79a56db6d01684fcfbfbd7b9c94629f975c69230ece25b897dc1c67",
+    "ar/index.html": "549509ce04848f7619c080c2e6f15ed1cefb7b41087a858329d37991017c100a",
+    "ar/privacy.html": "242c82a6de68e2823e588a7a63d1a4d52cbfb3e7df0a74adfe76b8e9b04a10d9",
+    "ar/terms.html": "44c299a4df997f37e72b90c42c5febcd8f8b883f9d8aa96ab3bbf8c2ba5abfb2",
+    "de/index.html": "6f3ab6ca8f63c7f9166625bd5b38cc1780c4bef70df89dc6224d343eaf213a45",
+    "de/privacy.html": "a99676027ee4784ff29e52dec92be3cb1662170339f1eccfda344590fa8d97e6",
+    "de/terms.html": "3e41d3d8cc01d7965b8e986f064d9c8384e9490bfd87a0ed2b06f1539160d3eb",
+    "es/index.html": "8b70899f5d4198925943f73ec61c2844c5d86df78b5a1e64efdde081bc8c29b0",
+    "es/privacy.html": "bf9652668d4ee93f758e843f698a3c3002c9344b5b2f8ffa883f4a0a7ad23f99",
+    "es/terms.html": "1e9d48ed85d06797c6c55c7b71e2f1bf8dd36ee59378579a18db23c069a06cf4",
+    "fr/index.html": "f79b48c7c81698a43843ec26777565688ad8f7f72725fd7b9b2eb379a7cdfe1a",
+    "fr/privacy.html": "b3a9e75fe4a81fb5cd19354b6af6632103f0824e8442d740fcf447be4f3bd284",
+    "fr/terms.html": "414f79d8d46a8f2bc0ff3ff79e017df055aa325d09f9b2b67bc27998a8d33ee8",
+    "hi/index.html": "9d90ff2795866f39a07d4812a768718d180852ac274baa66a608366f79352ae4",
+    "hi/privacy.html": "d024a3e71ab189b1d8aa60b1eb4589965de58dbffa82160a66b6b8e5c70cdbed",
+    "hi/terms.html": "ce00ff58295ec1038cbcc482287534243fdb38e205d2fe8bbd97cf322b571b32",
+    "id/index.html": "a3da8c9b5fe5d8c834aaa773942434a6a6fa865c07e1cbc2f8e56b4eb61e06fd",
+    "id/privacy.html": "5852e97c2ff2451789121c42a75db5cdb03c29de099590ae105b4f7ea17216bb",
+    "id/terms.html": "87ada3389835319f820a7e8ab62b9ca5f29df3b65fb267c95b9af3b36842fc36",
+    "it/index.html": "8bd985ae8a4e5b31d667da637d1d362295f21da99cd8da037503a61479c58c7a",
+    "it/privacy.html": "acc0eb617223433e7cef0eb20d91c2f0a09c3a743b5c9a01d367e9855328abfc",
+    "it/terms.html": "e603a8577c7dbcef63ccc28ee4f064661b5ae257ce5723dc07e5e0b0f6ac3b76",
+    "ms/index.html": "2adcb52ba1fd884bb160b94f2c7a4a213affd466f4c18d7ea15525e0d7dab67c",
+    "ms/privacy.html": "1e9e0bb09e9d87fa55dfd84d028fa2413c439d3252a992c72cc7bd4f2b5ad06f",
+    "ms/terms.html": "a03d32505ddc5714d9aea8b39972383b802cb2b19c7c5c92ccc37d51e419338f",
+    "nl/index.html": "7028e4cba0c7bd8efe49e50e10b72cd00af9404673e9cfcba194da43140a8227",
+    "nl/privacy.html": "7505f9f113052a2b96aeb3ed93e4a3d2c11df4892576beef4b1c37ff084350d4",
+    "nl/terms.html": "0da760144260746f7f62a917937cc0f3b07fa3269a1a51927c8a322c1e90b753",
+    "pt/index.html": "446373347262744072aab9c6ba878bac19b9a6a361929c7fe47cfadc2d20f57a",
+    "pt/privacy.html": "e59466b9a7de71b6bff22c14f05ec269bc28165aa5e423026bb676d54be6c825",
+    "pt/terms.html": "2824c299a5ef0417bf6f2b6bc32d070313109182fc420fe8b49450ee5baece35",
+    "ru/index.html": "4895814727b2b656c8510589fbca17cda8d83b1c1ca9a9d6efa706fd452c7d7a",
+    "ru/privacy.html": "9911f9938bb6c134a571386980c3a2d0ec28d1371b30b3a314c8ba612c2c334e",
+    "ru/terms.html": "41caaaa3326f4544ec53b63e3d4e62d45d35d2bd1e0b31317104008c0dcc7c56",
+    "tr/index.html": "9ca6347e84f921a748b5f5a0c23854134a927b5193a45d4816771d4a97d43979",
+    "tr/privacy.html": "0aff5f2b96e89ad01c1b0b45300ddaefd92ac7eeb4790834f2eaeaec7e46a02f",
+    "tr/terms.html": "f90fecb6a25939d3a8dce7026a887b498539cdaa822aa07d000efe77f6646eec",
+    "zh/index.html": "94d2de23f5fe41c15d8f4252fbe8517a5f784c226c007fb9116db488f9f6f7b8",
+    "zh/privacy.html": "68236e0601e9c13b10a2730bd192aa9c5b9cd1bdcff8d334c340937e62c24ad6",
+    "zh/terms.html": "e7958374fcaf25e08a6b76caae69f3ac077798de155b9ba1d93463172f36cb82",
+    "zh-hant/index.html": "55be54903089e4b5b7478cf57ec1911d0fdfdb6212ad6d6f74376c39d20cc33b",
+    "zh-hant/privacy.html": "4ec1be80e7a4809ec97971af82c298e63b17116a73742b842a5d7d28ca07e389",
+    "zh-hant/terms.html": "5e15706e55ff80d714e2ba4e46334b5fb4482060629729e014a4053109cd82ff"
+  },
+  "validation": {
+    "projectTests": 73,
+    "pages": 45,
+    "deviceProfiles": 90,
+    "minimumCategoryScore": 95,
+    "narrowViewport": 320,
+    "narrowPagesChecked": 45,
+    "reference": "https://famiguru.com/"
+  }
+}

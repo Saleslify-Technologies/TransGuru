@@ -1,0 +1,208 @@
+{
+  "routes": {
+    "i2a": {
+      "title": [
+        "Stap over van iPhone.",
+        "Ga verder op Android."
+      ],
+      "description": "Open TransGuru op Android en sluit de iPhone aan met een datakabel. Volg de handleiding om je gegevens te back-uppen en te converteren. Herstel daarna je chats in WhatsApp.",
+      "method": "USB-datakabel",
+      "icon": "usb",
+      "overview": [
+        [
+          "Verbind beide telefoons",
+          "Sluit de kabel aan en vertrouw het Android-apparaat op je iPhone."
+        ],
+        [
+          "Back-up maken en converteren",
+          "Controleer de back-upinstellingen en selecteer het account dat je wilt overzetten."
+        ],
+        [
+          "Herstellen op de nieuwe telefoon",
+          "Volg de handleiding om WhatsApp te installeren en de back-up te herstellen."
+        ]
+      ],
+      "requirements": [
+        "Een Android-telefoon die USB OTG ondersteunt",
+        "Een kabel die gegevensoverdracht ondersteunt",
+        "Een ontgrendelde iPhone en voldoende batterijlading op beide telefoons"
+      ],
+      "caution": "Maak vóór het herstel een back-up van alle chats die je op de doeltelefoon wilt behouden. De migratie voegt chats niet samen.",
+      "steps": [
+        [
+          "Verbinden",
+          "Sluit de kabel aan en vertrouw het Android-apparaat op je iPhone"
+        ],
+        [
+          "Back-up controleren",
+          "Volg de handleiding om de versleutelde back-up en de Zoek mijn-instellingen te controleren"
+        ],
+        [
+          "Back-up maken",
+          "Maak een back-up en lees je chatgegevens"
+        ],
+        [
+          "Herstel voorbereiden",
+          "Selecteer een account, bekijk de gegevens en bevestig de vervanging"
+        ],
+        [
+          "Verwijderen",
+          "Volg de handleiding om WhatsApp van de doeltelefoon te verwijderen"
+        ],
+        [
+          "Converteren",
+          "Maak een back-up die Android kan herstellen"
+        ],
+        [
+          "Opnieuw installeren",
+          "Installeer WhatsApp opnieuw vanuit een officiële bron"
+        ],
+        [
+          "Herstellen",
+          "Volg de WhatsApp-herstelhandleiding en controleer je gegevens"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 of nieuwer met ondersteuning voor USB OTG",
+        "Een datakabel die op beide telefoons past",
+        "Een afzonderlijke back-up van alle chats die je op de doeltelefoon wilt behouden",
+        "Voldoende batterijlading en vrije opslagruimte op beide telefoons"
+      ]
+    },
+    "a2i": {
+      "title": [
+        "Stap over van Android.",
+        "Ga verder op iPhone."
+      ],
+      "description": "Maak een versleutelde back-up op Android en voer de sleutel in wanneer daarom wordt gevraagd. TransGuru converteert de gegevens en zet ze via een datakabel over naar de iPhone.",
+      "method": "USB-datakabel",
+      "icon": "usb",
+      "overview": [
+        [
+          "Bereid de Android-back-up voor",
+          "Volg de handleiding om een back-up te maken en de versleutelingssleutel op te slaan."
+        ],
+        [
+          "Ontsleutelen en converteren",
+          "Verwerk de back-up op de Android-telefoon en bereid deze voor op de iPhone."
+        ],
+        [
+          "Verbinden en overzetten",
+          "Controleer de iPhone, zet de gegevens over en controleer daarna je chats."
+        ]
+      ],
+      "requirements": [
+        "De Android-brontelefoon en de doel-iPhone",
+        "De juiste versleutelingssleutel van 64 tekens voor de huidige back-up",
+        "Een Android-telefoon met ondersteuning voor USB OTG en een geschikte datakabel"
+      ],
+      "caution": "Deze route vervangt de WhatsApp-gegevens op de iPhone. De back-up kan niet met bestaande chats worden samengevoegd. Bewaar belangrijke gegevens eerst afzonderlijk.",
+      "steps": [
+        [
+          "Back-up maken op Android",
+          "Maak een versleutelde back-up en selecteer een account"
+        ],
+        [
+          "Sleutel invoeren",
+          "Voer de versleutelingssleutel van de back-up in en controleer deze"
+        ],
+        [
+          "Ontsleutelen en converteren",
+          "Verwerk en bereid de gegevens voor op Android"
+        ],
+        [
+          "Overdracht voorbereiden",
+          "Volg de handleiding om in te loggen en de instellingen op de iPhone te controleren"
+        ],
+        [
+          "Verbinden",
+          "Verbind beide telefoons met een datakabel"
+        ],
+        [
+          "Laatste controles uitvoeren",
+          "Controleer of de iPhone klaar is"
+        ],
+        [
+          "Overzetten",
+          "Houd de telefoons verbonden en controleer daarna de chats en media"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 of nieuwer met ondersteuning voor USB OTG",
+        "De juiste versleutelingssleutel van 64 tekens voor de huidige back-up",
+        "Een afzonderlijke kopie van belangrijke WhatsApp-gegevens op de iPhone, met dien verstande dat het herstel deze vervangt",
+        "Een datakabel, voldoende batterijlading en voldoende vrije opslagruimte"
+      ]
+    },
+    "a2a": {
+      "title": [
+        "Stap over van Android.",
+        "Behoud wat telt."
+      ],
+      "description": "Open TransGuru en schakel wifi in op beide telefoons. Kies daarna de oude en de nieuwe telefoon. De app maakt een lokale verbinding waarmee je de back-up en media kunt scannen en overzetten. Als deze verbinding niet beschikbaar is, verbind je beide telefoons met hetzelfde wifinetwerk.",
+      "method": "Lokale hotspot of hetzelfde wifinetwerk",
+      "icon": "wifi-high",
+      "overview": [
+        [
+          "Kies de oude en nieuwe telefoon",
+          "Zoek de chats op de oude telefoon en bereid de nieuwe telefoon voor."
+        ],
+        [
+          "Scannen en overzetten",
+          "Toon de code op de nieuwe telefoon, scan deze en verzend de gegevens vanaf de oude telefoon."
+        ],
+        [
+          "Herstellen op de nieuwe telefoon",
+          "Volg de handleiding om de back-up in WhatsApp te herstellen."
+        ]
+      ],
+      "requirements": [
+        "TransGuru is op beide Android-telefoons geïnstalleerd",
+        "Wifi is ingeschakeld zodat de app een lokale verbinding kan maken, of beide telefoons zijn met hetzelfde wifinetwerk verbonden",
+        "De versleutelingssleutel van de back-up is opgeslagen als deze voor herstel nodig is"
+      ],
+      "caution": "Bewaar de oorspronkelijke back-up voordat je begint en controleer de chats en media na het herstel.",
+      "steps": [
+        [
+          "Kies elke telefoon",
+          "Selecteer Nieuwe telefoon op het ene apparaat en Oude telefoon op het andere"
+        ],
+        [
+          "Voorbereiden",
+          "Zoek de back-up op de oude telefoon en bereid de nieuwe telefoon voor"
+        ],
+        [
+          "Installeren en sleutel invoeren",
+          "Installeer WhatsApp opnieuw op de nieuwe telefoon en voer indien nodig de sleutel van de oude telefoon in"
+        ],
+        [
+          "Scannen",
+          "Toon de QR-code op de nieuwe telefoon en scan deze met de oude telefoon"
+        ],
+        [
+          "Overzetten",
+          "Houd de lokale verbinding actief terwijl de back-up en media worden verzonden"
+        ],
+        [
+          "Herstellen",
+          "Herstel in WhatsApp op de nieuwe telefoon en controleer je gegevens"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 of nieuwer en ondersteuning voor USB OTG op beide telefoons",
+        "Wifi is op beide telefoons ingeschakeld zonder handmatig een gedeelde systeemhotspot in te schakelen",
+        "De oorspronkelijke back-up en alle vereiste versleutelingssleutels zijn opgeslagen",
+        "Ik controleer na het herstel belangrijke chats en media op de nieuwe telefoon"
+      ]
+    }
+  },
+  "ui": {
+    "expandSteps": "Alle {count} stappen bekijken",
+    "collapseSteps": "Volledige handleiding verbergen",
+    "stageCount": "{count} begeleide stappen",
+    "progress": "{count} van 4 gereed",
+    "complete": "4 van 4 gereed. Je kunt na de openbare release beginnen.",
+    "openMenu": "Navigatiemenu openen",
+    "closeMenu": "Navigatiemenu sluiten"
+  }
+}

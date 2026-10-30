@@ -1,0 +1,208 @@
+{
+  "routes": {
+    "i2a": {
+      "title": [
+        "Beralih dari iPhone.",
+        "Teruskan pada Android."
+      ],
+      "description": "Buka TransGuru pada Android dan sambungkan iPhone dengan kabel data. Ikuti panduan untuk membuat sandaran dan menukar data anda, kemudian pulihkan sembang anda dalam WhatsApp.",
+      "method": "Kabel data USB",
+      "icon": "usb",
+      "overview": [
+        [
+          "Sambungkan kedua-dua telefon",
+          "Sambungkan kabel dan percayakan peranti Android pada iPhone anda."
+        ],
+        [
+          "Sandarkan dan tukar",
+          "Semak tetapan sandaran dan pilih akaun untuk dialihkan."
+        ],
+        [
+          "Pulihkan pada telefon baharu",
+          "Ikuti panduan untuk memasang WhatsApp dan memulihkan sandaran."
+        ]
+      ],
+      "requirements": [
+        "Telefon Android yang menyokong USB OTG",
+        "Kabel yang menyokong pemindahan data",
+        "iPhone yang tidak berkunci dan bateri yang mencukupi pada kedua-dua telefon"
+      ],
+      "caution": "Sebelum anda memulihkan, sandarkan sebarang sembang yang anda perlukan untuk disimpan pada telefon destinasi. Penghijrahan tidak menggabungkan sembang.",
+      "steps": [
+        [
+          "Sambung",
+          "Sambungkan kabel dan percayakan peranti Android pada iPhone anda"
+        ],
+        [
+          "Semak sandaran",
+          "Ikuti panduan untuk menyemak sandaran yang disulitkan dan tetapan Cari Saya"
+        ],
+        [
+          "sandarkan",
+          "Sandarkan dan baca data sembang anda"
+        ],
+        [
+          "Bersedia untuk memulihkan",
+          "Pilih akaun, pratonton data dan sahkan penggantian"
+        ],
+        [
+          "Nyahpasang",
+          "Ikuti panduan untuk menyahpasang WhatsApp daripada telefon destinasi"
+        ],
+        [
+          "Tukar",
+          "Buat sandaran yang Android boleh pulihkan"
+        ],
+        [
+          "Pasang semula",
+          "Pasang semula WhatsApp daripada sumber rasmi"
+        ],
+        [
+          "Pulihkan",
+          "Ikuti panduan pemulihan WhatsApp dan sahkan data anda"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 atau lebih baru dengan sokongan USB OTG",
+        "Kabel data yang sesuai dengan kedua-dua telefon",
+        "Sandaran berasingan bagi sebarang sembang untuk disimpan di telefon destinasi",
+        "Bateri yang mencukupi dan storan percuma pada kedua-dua telefon"
+      ]
+    },
+    "a2i": {
+      "title": [
+        "Beralih dari Android.",
+        "Teruskan pada iPhone."
+      ],
+      "description": "Buat sandaran yang disulitkan pada Android dan masukkan kuncinya apabila digesa. TransGuru menukar data dan memindahkannya ke iPhone melalui kabel data.",
+      "method": "Kabel data USB",
+      "icon": "usb",
+      "overview": [
+        [
+          "Sediakan sandaran Android",
+          "Ikuti panduan untuk membuat sandaran dan menyimpan kunci penyulitannya."
+        ],
+        [
+          "Nyahsulit dan tukar",
+          "Proseskan sandaran pada telefon Android dan sediakannya untuk iPhone."
+        ],
+        [
+          "Sambung dan pindahkan",
+          "Semak iPhone, pindahkan data, kemudian sahkan sembang anda."
+        ]
+      ],
+      "requirements": [
+        "Sumber Android telefon dan destinasi iPhone",
+        "Kunci penyulitan 64 aksara yang betul untuk sandaran semasa",
+        "Telefon Android dengan sokongan USB OTG dan kabel data yang serasi"
+      ],
+      "caution": "Laluan ini menggantikan data WhatsApp pada iPhone. Ia tidak boleh menggabungkan sandaran dengan sembang sedia ada. Simpan salinan data penting yang berasingan dahulu.",
+      "steps": [
+        [
+          "Sandarkan pada Android",
+          "Buat sandaran yang disulitkan dan pilih akaun"
+        ],
+        [
+          "Masukkan kunci",
+          "Masukkan dan sahkan kunci penyulitan sandaran"
+        ],
+        [
+          "Nyahsulit dan tukar",
+          "Proses dan sediakan data pada Android"
+        ],
+        [
+          "Bersedia untuk memindahkan",
+          "Ikuti panduan untuk log masuk dan semak tetapan pada iPhone"
+        ],
+        [
+          "Sambung",
+          "Sambungkan kedua-dua telefon dengan kabel data"
+        ],
+        [
+          "Jalankan pemeriksaan akhir",
+          "Semak bahawa iPhone sudah sedia"
+        ],
+        [
+          "Pemindahan",
+          "Pastikan telefon disambungkan, kemudian sahkan sembang dan media"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 atau lebih baru dengan sokongan USB OTG",
+        "Kunci penyulitan 64 aksara yang betul untuk sandaran semasa",
+        "Salinan berasingan data WhatsApp yang penting pada iPhone, dengan pemahaman bahawa memulihkan menggantikannya",
+        "Kabel data, bateri yang mencukupi dan storan percuma yang mencukupi"
+      ]
+    },
+    "a2a": {
+      "title": [
+        "Beralih dari Android.",
+        "Simpan apa yang penting."
+      ],
+      "description": "Buka TransGuru dan hidupkan Wi-Fi pada kedua-dua telefon, kemudian pilih telefon lama dan baharu. Aplikasi ini mencipta sambungan setempat supaya anda boleh mengimbas dan memindahkan sandaran dan media. Jika sambungan ini tidak tersedia, sambungkan kedua-dua telefon ke rangkaian Wi-Fi yang sama.",
+      "method": "Tempat liputan tempatan atau Wi-Fi yang sama",
+      "icon": "wifi-high",
+      "overview": [
+        [
+          "Pilih telefon lama dan baharu",
+          "Cari sembang pada telefon lama dan sediakan telefon baharu."
+        ],
+        [
+          "Imbas dan pindahkan",
+          "Tunjukkan kod pada telefon baharu, kemudian imbas dan hantar data daripada telefon lama."
+        ],
+        [
+          "Pulihkan pada telefon baharu",
+          "Ikuti panduan untuk memulihkan sandaran dalam WhatsApp."
+        ]
+      ],
+      "requirements": [
+        "TransGuru dipasang pada kedua-dua telefon Android",
+        "Wi-Fi didayakan supaya apl boleh membuat sambungan setempat, atau kedua-dua telefon disambungkan ke rangkaian Wi-Fi yang sama",
+        "Kunci penyulitan sandaran disimpan jika ia diperlukan untuk pemulihan"
+      ],
+      "caution": "Simpan sandaran asal sebelum anda memulakan dan sahkan sembang dan media selepas dipulihkan.",
+      "steps": [
+        [
+          "Pilih setiap telefon",
+          "Pilih Telefon baharu pada satu peranti dan Telefon lama pada peranti lain"
+        ],
+        [
+          "Sediakan",
+          "Cari sandaran pada telefon lama dan sediakan telefon baharu"
+        ],
+        [
+          "Pasang dan masukkan kekunci",
+          "Pasang semula WhatsApp pada telefon baharu dan berikan kunci daripada telefon lama apabila diperlukan"
+        ],
+        [
+          "Imbas",
+          "Tunjukkan kod QR pada telefon baharu dan imbasnya dengan telefon lama"
+        ],
+        [
+          "Pemindahan",
+          "Pastikan sambungan tempatan aktif semasa sandaran dan media dihantar"
+        ],
+        [
+          "Pulihkan",
+          "Pulihkan dalam WhatsApp pada telefon baharu dan sahkan data anda"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 atau lebih baru dan sokongan USB OTG pada kedua-dua telefon",
+        "Wi-Fi didayakan pada kedua-dua telefon, tanpa mendayakan hotspot sistem kongsi secara manual",
+        "Sandaran asal dan sebarang kunci penyulitan yang diperlukan disimpan",
+        "Saya akan mengesahkan sembang dan media penting pada telefon baharu selepas dipulihkan"
+      ]
+    }
+  },
+  "ui": {
+    "expandSteps": "Lihat semua peringkat {count}",
+    "collapseSteps": "Sembunyikan panduan penuh",
+    "stageCount": "{count} peringkat berpandu",
+    "progress": "{count} daripada 4 sedia",
+    "complete": "4 daripada 4 sedia. Anda boleh bermula selepas keluaran awam.",
+    "openMenu": "Buka menu navigasi",
+    "closeMenu": "Tutup menu navigasi"
+  }
+}

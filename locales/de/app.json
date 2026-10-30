@@ -1,0 +1,208 @@
+{
+  "routes": {
+    "i2a": {
+      "title": [
+        "Vom iPhone wechseln.",
+        "Auf Android weitermachen."
+      ],
+      "description": "Öffne TransGuru auf Android und verbinde das iPhone mit einem Datenkabel. Folge der Anleitung, um deine Daten zu sichern und umzuwandeln. Stelle deine Chats anschließend in WhatsApp wieder her.",
+      "method": "USB-Datenkabel",
+      "icon": "usb",
+      "overview": [
+        [
+          "Beide Smartphones verbinden",
+          "Schließe das Kabel an und bestätige auf dem iPhone, dass du dem Android-Gerät vertraust."
+        ],
+        [
+          "Sichern und umwandeln",
+          "Prüfe die Sicherungseinstellungen und wähle das zu übertragende Konto aus."
+        ],
+        [
+          "Auf dem neuen Smartphone wiederherstellen",
+          "Folge der Anleitung, um WhatsApp zu installieren und die Sicherung wiederherzustellen."
+        ]
+      ],
+      "requirements": [
+        "Ein Android-Smartphone mit USB-OTG-Unterstützung",
+        "Ein Kabel, das Daten übertragen kann",
+        "Ein entsperrtes iPhone und ausreichend Akkuladung auf beiden Smartphones"
+      ],
+      "caution": "Sichere vor der Wiederherstellung alle Chats, die du auf dem Zielgerät behalten möchtest. Bei der Migration werden Chats nicht zusammengeführt.",
+      "steps": [
+        [
+          "Verbinden",
+          "Schließe das Kabel an und bestätige auf dem iPhone, dass du dem Android-Gerät vertraust"
+        ],
+        [
+          "Sicherung prüfen",
+          "Folge der Anleitung, um die verschlüsselte Sicherung und die Einstellungen für Wo ist? zu prüfen"
+        ],
+        [
+          "Sichern",
+          "Sichere und lies deine Chatdaten ein"
+        ],
+        [
+          "Wiederherstellung vorbereiten",
+          "Wähle ein Konto aus, sieh dir die Daten in der Vorschau an und bestätige das Ersetzen"
+        ],
+        [
+          "Deinstallieren",
+          "Folge der Anleitung, um WhatsApp vom Zielgerät zu deinstallieren"
+        ],
+        [
+          "Umwandeln",
+          "Erstelle eine Sicherung, die Android wiederherstellen kann"
+        ],
+        [
+          "Neu installieren",
+          "Installiere WhatsApp erneut aus einer offiziellen Quelle"
+        ],
+        [
+          "Wiederherstellen",
+          "Folge der WhatsApp-Anleitung zur Wiederherstellung und prüfe deine Daten"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 oder neuer mit USB-OTG-Unterstützung",
+        "Ein Datenkabel, das zu beiden Smartphones passt",
+        "Eine separate Sicherung aller Chats, die auf dem Zielgerät erhalten bleiben sollen",
+        "Ausreichend Akkuladung und freier Speicherplatz auf beiden Smartphones"
+      ]
+    },
+    "a2i": {
+      "title": [
+        "Von Android wechseln.",
+        "Auf dem iPhone weitermachen."
+      ],
+      "description": "Erstelle auf Android eine verschlüsselte Sicherung und gib bei Aufforderung den zugehörigen Schlüssel ein. TransGuru wandelt die Daten um und überträgt sie über ein Datenkabel auf das iPhone.",
+      "method": "USB-Datenkabel",
+      "icon": "usb",
+      "overview": [
+        [
+          "Android-Sicherung vorbereiten",
+          "Folge der Anleitung, um eine Sicherung zu erstellen und den Verschlüsselungsschlüssel zu speichern."
+        ],
+        [
+          "Entschlüsseln und umwandeln",
+          "Verarbeite die Sicherung auf dem Android-Smartphone und bereite sie für das iPhone vor."
+        ],
+        [
+          "Verbinden und übertragen",
+          "Prüfe das iPhone, übertrage die Daten und kontrolliere anschließend deine Chats."
+        ]
+      ],
+      "requirements": [
+        "Das Android-Quellgerät und das Ziel-iPhone",
+        "Der richtige 64-stellige Verschlüsselungsschlüssel der aktuellen Sicherung",
+        "Ein Android-Smartphone mit USB-OTG-Unterstützung und ein kompatibles Datenkabel"
+      ],
+      "caution": "Diese Route ersetzt die WhatsApp-Daten auf dem iPhone. Die Sicherung kann nicht mit vorhandenen Chats zusammengeführt werden. Speichere wichtige Daten zuerst separat.",
+      "steps": [
+        [
+          "Auf Android sichern",
+          "Erstelle eine verschlüsselte Sicherung und wähle ein Konto aus"
+        ],
+        [
+          "Schlüssel eingeben",
+          "Gib den Verschlüsselungsschlüssel der Sicherung ein und prüfe ihn"
+        ],
+        [
+          "Entschlüsseln und umwandeln",
+          "Verarbeite die Daten auf Android und bereite sie vor"
+        ],
+        [
+          "Übertragung vorbereiten",
+          "Folge der Anleitung, um dich auf dem iPhone anzumelden und die Einstellungen zu prüfen"
+        ],
+        [
+          "Verbinden",
+          "Verbinde beide Smartphones mit einem Datenkabel"
+        ],
+        [
+          "Letzte Prüfungen ausführen",
+          "Prüfe, ob das iPhone bereit ist"
+        ],
+        [
+          "Übertragen",
+          "Lass die Smartphones verbunden und prüfe danach Chats und Medien"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 oder neuer mit USB-OTG-Unterstützung",
+        "Der richtige 64-stellige Verschlüsselungsschlüssel der aktuellen Sicherung",
+        "Eine separate Kopie wichtiger WhatsApp-Daten auf dem iPhone und das Wissen, dass die Wiederherstellung diese Daten ersetzt",
+        "Ein Datenkabel, ausreichend Akkuladung und ausreichend freier Speicherplatz"
+      ]
+    },
+    "a2a": {
+      "title": [
+        "Von Android wechseln.",
+        "Wichtiges behalten."
+      ],
+      "description": "Öffne TransGuru und aktiviere WLAN auf beiden Smartphones. Wähle dann das alte und das neue Smartphone aus. Die App stellt eine lokale Verbindung her, über die du die Sicherung und Medien scannen und übertragen kannst. Wenn diese Verbindung nicht verfügbar ist, verbinde beide Smartphones mit demselben WLAN.",
+      "method": "Lokaler Hotspot oder dasselbe WLAN",
+      "icon": "wifi-high",
+      "overview": [
+        [
+          "Altes und neues Smartphone auswählen",
+          "Finde die Chats auf dem alten Smartphone und bereite das neue Smartphone vor."
+        ],
+        [
+          "Scannen und übertragen",
+          "Zeige den Code auf dem neuen Smartphone an, scanne ihn und sende die Daten vom alten Smartphone."
+        ],
+        [
+          "Auf dem neuen Smartphone wiederherstellen",
+          "Folge der Anleitung, um die Sicherung in WhatsApp wiederherzustellen."
+        ]
+      ],
+      "requirements": [
+        "TransGuru ist auf beiden Android-Smartphones installiert",
+        "WLAN ist aktiviert, damit die App eine lokale Verbindung herstellen kann, oder beide Smartphones sind mit demselben WLAN verbunden",
+        "Der Verschlüsselungsschlüssel der Sicherung wurde gespeichert, falls er zur Wiederherstellung benötigt wird"
+      ],
+      "caution": "Bewahre vor dem Start die ursprüngliche Sicherung auf und prüfe nach der Wiederherstellung deine Chats und Medien.",
+      "steps": [
+        [
+          "Smartphones zuordnen",
+          "Wähle auf einem Gerät Neues Smartphone und auf dem anderen Altes Smartphone aus"
+        ],
+        [
+          "Vorbereiten",
+          "Finde die Sicherung auf dem alten Smartphone und bereite das neue Smartphone vor"
+        ],
+        [
+          "Installieren und Schlüssel eingeben",
+          "Installiere WhatsApp auf dem neuen Smartphone neu und gib bei Aufforderung den Schlüssel vom alten Smartphone ein"
+        ],
+        [
+          "Scannen",
+          "Zeige den QR-Code auf dem neuen Smartphone an und scanne ihn mit dem alten Smartphone"
+        ],
+        [
+          "Übertragen",
+          "Lass die lokale Verbindung aktiv, während die Sicherung und die Medien gesendet werden"
+        ],
+        [
+          "Wiederherstellen",
+          "Stelle die Daten in WhatsApp auf dem neuen Smartphone wieder her und prüfe sie"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 oder neuer und USB-OTG-Unterstützung auf beiden Smartphones",
+        "WLAN ist auf beiden Smartphones aktiviert, ohne manuell einen gemeinsamen System-Hotspot einzuschalten",
+        "Die ursprüngliche Sicherung und alle benötigten Verschlüsselungsschlüssel sind gespeichert",
+        "Ich werde wichtige Chats und Medien nach der Wiederherstellung auf dem neuen Smartphone prüfen"
+      ]
+    }
+  },
+  "ui": {
+    "expandSteps": "Alle {count} Schritte anzeigen",
+    "collapseSteps": "Vollständige Anleitung ausblenden",
+    "stageCount": "{count} geführte Schritte",
+    "progress": "{count} von 4 bereit",
+    "complete": "4 von 4 bereit. Du kannst nach der öffentlichen Veröffentlichung beginnen.",
+    "openMenu": "Navigationsmenü öffnen",
+    "closeMenu": "Navigationsmenü schließen"
+  }
+}

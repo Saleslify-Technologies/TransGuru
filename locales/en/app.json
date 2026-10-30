@@ -1,0 +1,208 @@
+{
+  "routes": {
+    "i2a": {
+      "title": [
+        "Move from iPhone.",
+        "Continue on Android."
+      ],
+      "description": "Open TransGuru on Android and connect the iPhone with a data cable. Follow the guide to back up and convert your data, then restore your chats in WhatsApp.",
+      "method": "USB data cable",
+      "icon": "usb",
+      "overview": [
+        [
+          "Connect both phones",
+          "Connect the cable and trust the Android device on your iPhone."
+        ],
+        [
+          "Back up and convert",
+          "Check the backup settings and select the account to move."
+        ],
+        [
+          "Restore on the new phone",
+          "Follow the guide to install WhatsApp and restore the backup."
+        ]
+      ],
+      "requirements": [
+        "An Android phone that supports USB OTG",
+        "A cable that supports data transfer",
+        "An unlocked iPhone and enough battery on both phones"
+      ],
+      "caution": "Before you restore, back up any chats that you need to keep on the destination phone. Migration does not merge chats.",
+      "steps": [
+        [
+          "Connect",
+          "Connect the cable and trust the Android device on your iPhone"
+        ],
+        [
+          "Check the backup",
+          "Follow the guide to check encrypted backup and Find My settings"
+        ],
+        [
+          "Back up",
+          "Back up and read your chat data"
+        ],
+        [
+          "Prepare to restore",
+          "Select an account, preview the data, and confirm replacement"
+        ],
+        [
+          "Uninstall",
+          "Follow the guide to uninstall WhatsApp from the destination phone"
+        ],
+        [
+          "Convert",
+          "Create a backup that Android can restore"
+        ],
+        [
+          "Reinstall",
+          "Reinstall WhatsApp from an official source"
+        ],
+        [
+          "Restore",
+          "Follow the WhatsApp restore guide and verify your data"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 or later with USB OTG support",
+        "A data cable that fits both phones",
+        "A separate backup of any chats to keep on the destination phone",
+        "Enough battery and free storage on both phones"
+      ]
+    },
+    "a2i": {
+      "title": [
+        "Move from Android.",
+        "Continue on iPhone."
+      ],
+      "description": "Create an encrypted backup on Android and enter its key when prompted. TransGuru converts the data and transfers it to the iPhone through a data cable.",
+      "method": "USB data cable",
+      "icon": "usb",
+      "overview": [
+        [
+          "Prepare the Android backup",
+          "Follow the guide to create a backup and save its encryption key."
+        ],
+        [
+          "Decrypt and convert",
+          "Process the backup on the Android phone and prepare it for iPhone."
+        ],
+        [
+          "Connect and transfer",
+          "Check the iPhone, transfer the data, then verify your chats."
+        ]
+      ],
+      "requirements": [
+        "The source Android phone and destination iPhone",
+        "The correct 64-character encryption key for the current backup",
+        "An Android phone with USB OTG support and a compatible data cable"
+      ],
+      "caution": "This route replaces the WhatsApp data on the iPhone. It cannot merge the backup with existing chats. Save a separate copy of important data first.",
+      "steps": [
+        [
+          "Back up on Android",
+          "Create an encrypted backup and select an account"
+        ],
+        [
+          "Enter the key",
+          "Enter and verify the backup encryption key"
+        ],
+        [
+          "Decrypt and convert",
+          "Process and prepare the data on Android"
+        ],
+        [
+          "Prepare to transfer",
+          "Follow the guide to sign in and check settings on the iPhone"
+        ],
+        [
+          "Connect",
+          "Connect both phones with a data cable"
+        ],
+        [
+          "Run final checks",
+          "Check that the iPhone is ready"
+        ],
+        [
+          "Transfer",
+          "Keep the phones connected, then verify chats and media"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 or later with USB OTG support",
+        "The correct 64-character encryption key for the current backup",
+        "A separate copy of important WhatsApp data on the iPhone, with the understanding that restore replaces it",
+        "A data cable, enough battery, and enough free storage"
+      ]
+    },
+    "a2a": {
+      "title": [
+        "Move from Android.",
+        "Keep what matters."
+      ],
+      "description": "Open TransGuru and turn on Wi-Fi on both phones, then choose the old and new phone. The app creates a local connection so you can scan and transfer the backup and media. If this connection is not available, connect both phones to the same Wi-Fi network.",
+      "method": "Local hotspot or same Wi-Fi",
+      "icon": "wifi-high",
+      "overview": [
+        [
+          "Choose the old and new phone",
+          "Find the chats on the old phone and prepare the new phone."
+        ],
+        [
+          "Scan and transfer",
+          "Show the code on the new phone, then scan it and send the data from the old phone."
+        ],
+        [
+          "Restore on the new phone",
+          "Follow the guide to restore the backup in WhatsApp."
+        ]
+      ],
+      "requirements": [
+        "TransGuru installed on both Android phones",
+        "Wi-Fi enabled so the app can create a local connection, or both phones connected to the same Wi-Fi network",
+        "The backup encryption key saved if it is required for restore"
+      ],
+      "caution": "Keep the original backup before you start, and verify chats and media after restore.",
+      "steps": [
+        [
+          "Choose each phone",
+          "Select New phone on one device and Old phone on the other"
+        ],
+        [
+          "Prepare",
+          "Find the backup on the old phone and prepare the new phone"
+        ],
+        [
+          "Install and enter the key",
+          "Reinstall WhatsApp on the new phone and provide the key from the old phone when required"
+        ],
+        [
+          "Scan",
+          "Show the QR code on the new phone and scan it with the old phone"
+        ],
+        [
+          "Transfer",
+          "Keep the local connection active while the backup and media are sent"
+        ],
+        [
+          "Restore",
+          "Restore in WhatsApp on the new phone and verify your data"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 or later and USB OTG support on both phones",
+        "Wi-Fi enabled on both phones, without manually enabling a shared system hotspot",
+        "The original backup and any required encryption key are saved",
+        "I will verify important chats and media on the new phone after restore"
+      ]
+    }
+  },
+  "ui": {
+    "expandSteps": "View all {count} stages",
+    "collapseSteps": "Hide full guide",
+    "stageCount": "{count} guided stages",
+    "progress": "{count} of 4 ready",
+    "complete": "4 of 4 ready. You can start after the public release.",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu"
+  }
+}

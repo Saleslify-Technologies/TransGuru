@@ -1,0 +1,208 @@
+{
+  "routes": {
+    "i2a": {
+      "title": [
+        "iPhone'dan taşıyın.",
+        "Android'de devam edin."
+      ],
+      "description": "Android'de TransGuru'yu açın ve iPhone'u bir veri kablosuyla bağlayın. Verilerinizi yedeklemek ve dönüştürmek için kılavuzu izleyin, ardından sohbetlerinizi WhatsApp'ta geri yükleyin.",
+      "method": "USB veri kablosu",
+      "icon": "usb",
+      "overview": [
+        [
+          "İki telefonu bağlayın",
+          "Kabloyu bağlayın ve iPhone'unuzda Android cihaza güvenin."
+        ],
+        [
+          "Yedekleyin ve dönüştürün",
+          "Yedekleme ayarlarını kontrol edin ve taşınacak hesabı seçin."
+        ],
+        [
+          "Yeni telefonda geri yükleyin",
+          "WhatsApp'ı yüklemek ve yedeği geri yüklemek için kılavuzu izleyin."
+        ]
+      ],
+      "requirements": [
+        "USB OTG destekli bir Android telefon",
+        "Veri aktarımını destekleyen bir kablo",
+        "Kilidi açık bir iPhone ve iki telefonda yeterli şarj"
+      ],
+      "caution": "Geri yüklemeden önce hedef telefonda tutmanız gereken sohbetleri yedekleyin. Taşıma işlemi sohbetleri birleştirmez.",
+      "steps": [
+        [
+          "Bağlayın",
+          "Kabloyu bağlayın ve iPhone'unuzda Android cihaza güvenin"
+        ],
+        [
+          "Yedeği kontrol edin",
+          "Şifreli yedekleme ve Bul ayarlarını kontrol etmek için kılavuzu izleyin"
+        ],
+        [
+          "Yedekleyin",
+          "Sohbet verilerinizi yedekleyin ve okuyun"
+        ],
+        [
+          "Geri yüklemeye hazırlanın",
+          "Bir hesap seçin, verileri önizleyin ve değiştirme işlemini onaylayın"
+        ],
+        [
+          "Kaldırın",
+          "WhatsApp'ı hedef telefondan kaldırmak için kılavuzu izleyin"
+        ],
+        [
+          "Dönüştürün",
+          "Android'in geri yükleyebileceği bir yedek oluşturun"
+        ],
+        [
+          "Yeniden yükleyin",
+          "WhatsApp'ı resmi bir kaynaktan yeniden yükleyin"
+        ],
+        [
+          "Geri yükleyin",
+          "WhatsApp geri yükleme kılavuzunu izleyin ve verilerinizi doğrulayın"
+        ]
+      ],
+      "checklist": [
+        "USB OTG destekli Android 7.0 veya sonraki bir sürüm",
+        "İki telefona da uyan bir veri kablosu",
+        "Hedef telefonda tutulacak sohbetlerin ayrı bir yedeği",
+        "İki telefonda yeterli şarj ve boş depolama alanı"
+      ]
+    },
+    "a2i": {
+      "title": [
+        "Android'den taşıyın.",
+        "iPhone'da devam edin."
+      ],
+      "description": "Android'de şifreli bir yedek oluşturun ve istendiğinde anahtarı girin. TransGuru verileri dönüştürür ve bir veri kablosuyla iPhone'a aktarır.",
+      "method": "USB veri kablosu",
+      "icon": "usb",
+      "overview": [
+        [
+          "Android yedeğini hazırlayın",
+          "Yedek oluşturmak ve şifreleme anahtarını kaydetmek için kılavuzu izleyin."
+        ],
+        [
+          "Şifreyi çözün ve dönüştürün",
+          "Yedeği Android telefonda işleyin ve iPhone için hazırlayın."
+        ],
+        [
+          "Bağlayın ve aktarın",
+          "iPhone'u kontrol edin, verileri aktarın ve ardından sohbetlerinizi doğrulayın."
+        ]
+      ],
+      "requirements": [
+        "Kaynak Android telefon ve hedef iPhone",
+        "Geçerli yedeğin doğru 64 karakterli şifreleme anahtarı",
+        "USB OTG destekli bir Android telefon ve uyumlu bir veri kablosu"
+      ],
+      "caution": "Bu yol, iPhone'daki WhatsApp verilerinin yerini alır. Yedek mevcut sohbetlerle birleştirilemez. Önce önemli verilerin ayrı bir kopyasını kaydedin.",
+      "steps": [
+        [
+          "Android'de yedekleyin",
+          "Şifreli bir yedek oluşturun ve bir hesap seçin"
+        ],
+        [
+          "Anahtarı girin",
+          "Yedek şifreleme anahtarını girin ve doğrulayın"
+        ],
+        [
+          "Şifreyi çözün ve dönüştürün",
+          "Verileri Android'de işleyin ve hazırlayın"
+        ],
+        [
+          "Aktarıma hazırlanın",
+          "iPhone'da oturum açmak ve ayarları kontrol etmek için kılavuzu izleyin"
+        ],
+        [
+          "Bağlayın",
+          "İki telefonu bir veri kablosuyla bağlayın"
+        ],
+        [
+          "Son kontrolleri yapın",
+          "iPhone'un hazır olduğunu kontrol edin"
+        ],
+        [
+          "Aktarın",
+          "Telefonları bağlı tutun, ardından sohbetleri ve medyayı doğrulayın"
+        ]
+      ],
+      "checklist": [
+        "USB OTG destekli Android 7.0 veya sonraki bir sürüm",
+        "Geçerli yedeğin doğru 64 karakterli şifreleme anahtarı",
+        "Geri yüklemenin mevcut verilerin yerini alacağını bilerek iPhone'daki önemli WhatsApp verilerinin ayrı bir kopyası",
+        "Bir veri kablosu, yeterli şarj ve yeterli boş depolama alanı"
+      ]
+    },
+    "a2a": {
+      "title": [
+        "Android'den taşıyın.",
+        "Önemli olanları koruyun."
+      ],
+      "description": "İki telefonda TransGuru'yu açıp Wi-Fi'yi etkinleştirin, ardından eski ve yeni telefonu seçin. Uygulama, yedeği ve medyayı tarayıp aktarmanız için yerel bir bağlantı oluşturur. Bu bağlantı kullanılamıyorsa iki telefonu aynı Wi-Fi ağına bağlayın.",
+      "method": "Yerel erişim noktası veya aynı Wi-Fi ağı",
+      "icon": "wifi-high",
+      "overview": [
+        [
+          "Eski ve yeni telefonu seçin",
+          "Eski telefondaki sohbetleri bulun ve yeni telefonu hazırlayın."
+        ],
+        [
+          "Tarayın ve aktarın",
+          "Kodu yeni telefonda gösterin, ardından eski telefonla tarayıp verileri gönderin."
+        ],
+        [
+          "Yeni telefonda geri yükleyin",
+          "Yedeği WhatsApp'ta geri yüklemek için kılavuzu izleyin."
+        ]
+      ],
+      "requirements": [
+        "TransGuru'nun iki Android telefona da yüklenmiş olması",
+        "Uygulamanın yerel bağlantı oluşturabilmesi için Wi-Fi'nin etkin olması veya iki telefonun aynı Wi-Fi ağına bağlı olması",
+        "Geri yükleme için gerekliyse yedek şifreleme anahtarının kaydedilmiş olması"
+      ],
+      "caution": "Başlamadan önce özgün yedeği saklayın, geri yüklemeden sonra sohbetleri ve medyayı doğrulayın.",
+      "steps": [
+        [
+          "Her telefonu seçin",
+          "Bir cihazda Yeni telefon, diğerinde Eski telefon seçeneğini belirleyin"
+        ],
+        [
+          "Hazırlayın",
+          "Eski telefondaki yedeği bulun ve yeni telefonu hazırlayın"
+        ],
+        [
+          "Yükleyin ve anahtarı girin",
+          "WhatsApp'ı yeni telefona yeniden yükleyin ve gerektiğinde eski telefondaki anahtarı girin"
+        ],
+        [
+          "Tarayın",
+          "QR kodunu yeni telefonda gösterin ve eski telefonla tarayın"
+        ],
+        [
+          "Aktarın",
+          "Yedek ve medya gönderilirken yerel bağlantıyı etkin tutun"
+        ],
+        [
+          "Geri yükleyin",
+          "Yeni telefonda WhatsApp üzerinden geri yükleyin ve verilerinizi doğrulayın"
+        ]
+      ],
+      "checklist": [
+        "İki telefonda Android 7.0 veya sonraki bir sürüm ve USB OTG desteği",
+        "Paylaşılan sistem erişim noktasını manuel olarak etkinleştirmeden iki telefonda da Wi-Fi'nin açık olması",
+        "Özgün yedeğin ve gerekli tüm şifreleme anahtarlarının kaydedilmiş olması",
+        "Geri yüklemeden sonra yeni telefondaki önemli sohbetleri ve medyayı doğrulayacağım"
+      ]
+    }
+  },
+  "ui": {
+    "expandSteps": "{count} aşamanın tamamını görüntüle",
+    "collapseSteps": "Tam kılavuzu gizle",
+    "stageCount": "{count} kılavuzlu aşama",
+    "progress": "4 öğeden {count} tanesi hazır",
+    "complete": "4 öğenin 4'ü hazır. Herkese açık sürümden sonra başlayabilirsiniz.",
+    "openMenu": "Gezinme menüsünü aç",
+    "closeMenu": "Gezinme menüsünü kapat"
+  }
+}

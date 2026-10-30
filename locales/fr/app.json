@@ -1,0 +1,208 @@
+{
+  "routes": {
+    "i2a": {
+      "title": [
+        "Quittez l’iPhone.",
+        "Continuez sur Android."
+      ],
+      "description": "Ouvrez TransGuru sur Android et connectez l’iPhone avec un câble de données. Suivez le guide pour sauvegarder et convertir vos données, puis restaurez vos discussions dans WhatsApp.",
+      "method": "Câble de données USB",
+      "icon": "usb",
+      "overview": [
+        [
+          "Connectez les deux téléphones",
+          "Branchez le câble et, sur votre iPhone, faites confiance à l’appareil Android."
+        ],
+        [
+          "Sauvegardez et convertissez",
+          "Vérifiez les réglages de sauvegarde et sélectionnez le compte à transférer."
+        ],
+        [
+          "Restaurez sur le nouveau téléphone",
+          "Suivez le guide pour installer WhatsApp et restaurer la sauvegarde."
+        ]
+      ],
+      "requirements": [
+        "Un téléphone Android compatible USB OTG",
+        "Un câble compatible avec le transfert de données",
+        "Un iPhone déverrouillé et une batterie suffisamment chargée sur les deux téléphones"
+      ],
+      "caution": "Avant la restauration, sauvegardez les discussions à conserver sur le téléphone de destination. La migration ne fusionne pas les discussions.",
+      "steps": [
+        [
+          "Connexion",
+          "Branchez le câble et, sur votre iPhone, faites confiance à l’appareil Android"
+        ],
+        [
+          "Vérification de la sauvegarde",
+          "Suivez le guide pour vérifier la sauvegarde chiffrée et les réglages de Localiser"
+        ],
+        [
+          "Sauvegarde",
+          "Sauvegardez et lisez les données de vos discussions"
+        ],
+        [
+          "Préparation de la restauration",
+          "Sélectionnez un compte, prévisualisez les données et confirmez le remplacement"
+        ],
+        [
+          "Désinstallation",
+          "Suivez le guide pour désinstaller WhatsApp du téléphone de destination"
+        ],
+        [
+          "Conversion",
+          "Créez une sauvegarde qu’Android peut restaurer"
+        ],
+        [
+          "Réinstallation",
+          "Réinstallez WhatsApp depuis une source officielle"
+        ],
+        [
+          "Restauration",
+          "Suivez le guide de restauration WhatsApp et vérifiez vos données"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 ou version ultérieure avec prise en charge d’USB OTG",
+        "Un câble de données adapté aux deux téléphones",
+        "Une sauvegarde distincte des discussions à conserver sur le téléphone de destination",
+        "Une batterie suffisamment chargée et assez d’espace libre sur les deux téléphones"
+      ]
+    },
+    "a2i": {
+      "title": [
+        "Quittez Android.",
+        "Continuez sur iPhone."
+      ],
+      "description": "Créez une sauvegarde chiffrée sur Android et saisissez sa clé lorsque vous y êtes invité. TransGuru convertit les données et les transfère vers l’iPhone à l’aide d’un câble de données.",
+      "method": "Câble de données USB",
+      "icon": "usb",
+      "overview": [
+        [
+          "Préparez la sauvegarde Android",
+          "Suivez le guide pour créer une sauvegarde et enregistrer sa clé de chiffrement."
+        ],
+        [
+          "Déchiffrez et convertissez",
+          "Traitez la sauvegarde sur le téléphone Android et préparez-la pour l’iPhone."
+        ],
+        [
+          "Connectez et transférez",
+          "Vérifiez l’iPhone, transférez les données, puis contrôlez vos discussions."
+        ]
+      ],
+      "requirements": [
+        "Le téléphone Android source et l’iPhone de destination",
+        "La bonne clé de chiffrement de 64 caractères pour la sauvegarde actuelle",
+        "Un téléphone Android compatible USB OTG et un câble de données compatible"
+      ],
+      "caution": "Ce parcours remplace les données WhatsApp sur l’iPhone. Il ne peut pas fusionner la sauvegarde avec les discussions existantes. Enregistrez d’abord une copie distincte des données importantes.",
+      "steps": [
+        [
+          "Sauvegarde sur Android",
+          "Créez une sauvegarde chiffrée et sélectionnez un compte"
+        ],
+        [
+          "Saisie de la clé",
+          "Saisissez et vérifiez la clé de chiffrement de la sauvegarde"
+        ],
+        [
+          "Déchiffrement et conversion",
+          "Traitez et préparez les données sur Android"
+        ],
+        [
+          "Préparation du transfert",
+          "Suivez le guide pour vous connecter et vérifier les réglages sur l’iPhone"
+        ],
+        [
+          "Connexion",
+          "Connectez les deux téléphones avec un câble de données"
+        ],
+        [
+          "Dernières vérifications",
+          "Vérifiez que l’iPhone est prêt"
+        ],
+        [
+          "Transfert",
+          "Gardez les téléphones connectés, puis vérifiez les discussions et les médias"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 ou version ultérieure avec prise en charge d’USB OTG",
+        "La bonne clé de chiffrement de 64 caractères pour la sauvegarde actuelle",
+        "Une copie distincte des données WhatsApp importantes sur l’iPhone, sachant que la restauration les remplace",
+        "Un câble de données, une batterie suffisamment chargée et assez d’espace libre"
+      ]
+    },
+    "a2a": {
+      "title": [
+        "Quittez Android.",
+        "Gardez l’essentiel."
+      ],
+      "description": "Ouvrez TransGuru et activez le Wi-Fi sur les deux téléphones, puis désignez l’ancien et le nouveau téléphone. L’app crée une connexion locale qui permet de scanner et de transférer la sauvegarde et les médias. Si cette connexion n’est pas disponible, connectez les deux téléphones au même réseau Wi-Fi.",
+      "method": "Point d’accès local ou même réseau Wi-Fi",
+      "icon": "wifi-high",
+      "overview": [
+        [
+          "Désignez l’ancien et le nouveau téléphone",
+          "Trouvez les discussions sur l’ancien téléphone et préparez le nouveau."
+        ],
+        [
+          "Scannez et transférez",
+          "Affichez le code sur le nouveau téléphone, puis scannez-le et envoyez les données depuis l’ancien."
+        ],
+        [
+          "Restaurez sur le nouveau téléphone",
+          "Suivez le guide pour restaurer la sauvegarde dans WhatsApp."
+        ]
+      ],
+      "requirements": [
+        "TransGuru installé sur les deux téléphones Android",
+        "Le Wi-Fi activé pour que l’app puisse créer une connexion locale, ou les deux téléphones connectés au même réseau Wi-Fi",
+        "La clé de chiffrement de la sauvegarde enregistrée si elle est nécessaire à la restauration"
+      ],
+      "caution": "Conservez la sauvegarde d’origine avant de commencer, puis vérifiez les discussions et les médias après la restauration.",
+      "steps": [
+        [
+          "Désignation des téléphones",
+          "Sélectionnez Nouveau téléphone sur un appareil et Ancien téléphone sur l’autre"
+        ],
+        [
+          "Préparation",
+          "Trouvez la sauvegarde sur l’ancien téléphone et préparez le nouveau"
+        ],
+        [
+          "Installation et saisie de la clé",
+          "Réinstallez WhatsApp sur le nouveau téléphone et fournissez la clé de l’ancien téléphone si elle est demandée"
+        ],
+        [
+          "Lecture du code",
+          "Affichez le code QR sur le nouveau téléphone et scannez-le avec l’ancien"
+        ],
+        [
+          "Transfert",
+          "Maintenez la connexion locale pendant l’envoi de la sauvegarde et des médias"
+        ],
+        [
+          "Restauration",
+          "Restaurez les données dans WhatsApp sur le nouveau téléphone et vérifiez-les"
+        ]
+      ],
+      "checklist": [
+        "Android 7.0 ou version ultérieure et prise en charge d’USB OTG sur les deux téléphones",
+        "Le Wi-Fi activé sur les deux téléphones, sans activer manuellement un point d’accès système partagé",
+        "La sauvegarde d’origine et toute clé de chiffrement requise sont enregistrées",
+        "Je vérifierai les discussions et médias importants sur le nouveau téléphone après la restauration"
+      ]
+    }
+  },
+  "ui": {
+    "expandSteps": "Voir les {count} étapes",
+    "collapseSteps": "Masquer le guide complet",
+    "stageCount": "{count} étapes guidées",
+    "progress": "{count} sur 4 prêts",
+    "complete": "4 sur 4 prêts. Vous pourrez commencer après la sortie publique.",
+    "openMenu": "Ouvrir le menu de navigation",
+    "closeMenu": "Fermer le menu de navigation"
+  }
+}
