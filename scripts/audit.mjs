@@ -22,6 +22,12 @@ const modes = [
   { name: "desktop", flags: ["--preset=desktop"] },
   { name: "mobile", flags: [] },
 ];
+const lighthouseFlags = [
+  "--quiet",
+  "--output=json",
+  `--only-categories=${categories.join(",")}`,
+  "--chrome-flags=--headless=new --no-sandbox --disable-dev-shm-usage",
+];
 
 function selectAuditLocales(value) {
   if (value === undefined || value.trim() === "") return siteLocales;
@@ -144,6 +150,20 @@ const server = spawn(
 
 try {
   await waitForServer(siteUrl);
+  // Each CLI run has a fresh browser profile. Initialize host caches separately
+  // so runner startup stalls do not contaminate the first measured profile.
+  await run(
+    lighthouseBinary,
+    [
+      new URL(pages[0].path, siteUrl).href,
+      ...lighthouseFlags,
+      `--output-path=${path.join(reportDirectory, "host-warmup.json")}`,
+      "--preset=desktop",
+      "--save-assets",
+    ],
+    { cwd: projectDirectory },
+  );
+  console.log("Host warm-up complete; cold-cache scored audits follow.");
   const failures = [];
 
   for (const page of pages) {
@@ -166,11 +186,8 @@ try {
           lighthouseBinary,
           [
             auditUrl,
-            "--quiet",
-            "--output=json",
+            ...lighthouseFlags,
             `--output-path=${reportPath}`,
-            `--only-categories=${categories.join(",")}`,
-            "--chrome-flags=--headless=new --no-sandbox --disable-dev-shm-usage",
             ...(page.pageName === "home" && mode.name === "mobile"
               ? ["--save-assets"]
               : []),

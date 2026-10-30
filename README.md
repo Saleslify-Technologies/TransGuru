@@ -20,6 +20,8 @@ npm run audit
 
 This runs Lighthouse against the built site with mobile and desktop profiles. All four categories must score at least 95. Reports are saved under `.lighthouse/`. Chrome uses a temporary profile. The audit does not use an existing browser session.
 
+An unscored first run initializes the CI host before the measured profiles. Every measured run still uses a fresh Chrome profile and cold page cache. The warm-up report and trace are retained separately. This avoids first-process scheduling stalls observed on new hosted runners; it does not change throttling, scores, or the 95-point gate.
+
 ## Project files
 
 - `templates/`: shared HTML templates for the homepage, Privacy Policy, and Terms of Use.
