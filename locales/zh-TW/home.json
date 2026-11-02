@@ -54,7 +54,7 @@
   "home.summary.054": "移轉需要多長時間？<img\n                src=\"assets/icons/caret-down.svg\"\n                width=\"20\"\n                height=\"20\"\n                alt=\"\"\n              />",
   "home.p.055": "所需時間取決於聊天和媒體大小、手機效能及連線速度，沒有固定時間。請預留充足時間與儲存空間，保持裝置有足夠電量，並在 App 顯示完成前保持連線。",
   "home.summary.056": "聊天會上傳到伺服器嗎？<img\n                src=\"assets/icons/caret-down.svg\"\n                width=\"20\"\n                height=\"20\"\n                alt=\"\"\n              />",
-  "home.p.057": "TransGuru 不使用雲端轉送伺服器移轉聊天：跨系統移轉使用 USB，Android 手機之間則使用本機熱點或同一個 Wi-Fi。只有在你主動透過系統分享功能選擇接收者時，才會分享診斷記錄。螢幕截圖辨識元件可能傳送技術診斷資料，詳情請參閱 <a href=\"privacy.html#providers\">隱私權政策</a>。安裝或更新 WhatsApp 等步驟可能需要網際網路連線。",
+  "home.p.057": "TransGuru 不使用雲端轉送伺服器移轉聊天：跨系統移轉使用 USB，Android 手機之間則使用本機熱點或同一個 Wi-Fi。診斷記錄只會在你於 App 內提交意見回饋時離開手機。螢幕截圖辨識元件可能傳送技術診斷資料，詳情請參閱 <a href=\"privacy.html#providers\">隱私權政策</a>。安裝或更新 WhatsApp 等步驟可能需要網際網路連線。",
   "home.summary.058": "支援 WhatsApp Business 嗎？<img\n                src=\"assets/icons/caret-down.svg\"\n                width=\"20\"\n                height=\"20\"\n                alt=\"\"\n              />",
   "home.p.059": "App 可選擇 WhatsApp 或 WhatsApp Business。不同移轉方向的相容性仍在持續改善。不保證完整移轉 Business 標籤、商家檔案和登入狀態。請保留原始備份，並在還原後核對重要聊天。",
   "home.summary.060": "現在可以在哪裡下載？<img\n                src=\"assets/icons/caret-down.svg\"\n                width=\"20\"\n                height=\"20\"\n                alt=\"\"\n              />",

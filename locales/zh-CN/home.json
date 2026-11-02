@@ -54,7 +54,7 @@
   "home.summary.054": "迁移需要多长时间？<img\n                src=\"assets/icons/caret-down.svg\"\n                width=\"20\"\n                height=\"20\"\n                alt=\"\"\n              />",
   "home.p.055": "时间取决于聊天和媒体的大小、手机性能及连接速度，没有统一时长。请预留充足时间与存储空间，保持设备有足够电量，并在\n              App 提示完成之前保持连接。",
   "home.summary.056": "聊天会上传到服务器吗？<img\n                src=\"assets/icons/caret-down.svg\"\n                width=\"20\"\n                height=\"20\"\n                alt=\"\"\n              />",
-  "home.p.057": "TransGuru 的迁移流程不使用云端中转服务器：跨系统迁移使用\n              USB，Android 之间使用本地热点或同一\n              Wi-Fi。诊断日志仅在你主动选择分享时通过系统分享功能发送。截图识别组件可能发送技术诊断数据，详情见\n              <a href=\"privacy.html#providers\">隐私政策</a>。安装或更新 WhatsApp\n              等步骤可能需要互联网。",
+  "home.p.057": "TransGuru 的迁移流程不使用云端中转服务器：跨系统迁移使用 USB，Android 之间使用本地热点或同一 Wi-Fi。诊断日志只在你于 App 内提交反馈时离开手机。截图识别组件可能发送技术诊断数据，详情见 <a href=\"privacy.html#providers\">隐私政策</a>。安装或更新 WhatsApp 等步骤可能需要互联网。",
   "home.summary.058": "支持 WhatsApp Business 吗？<img\n                src=\"assets/icons/caret-down.svg\"\n                width=\"20\"\n                height=\"20\"\n                alt=\"\"\n              />",
   "home.p.059": "App 提供 WhatsApp 与 WhatsApp Business\n              账号选择。不同方向的兼容性仍在完善，Business\n              标签、业务资料和登录状态不作完整迁移承诺。请保留原始备份，并在完成后核对重要聊天。",
   "home.summary.060": "现在可以在哪里下载？<img\n                src=\"assets/icons/caret-down.svg\"\n                width=\"20\"\n                height=\"20\"\n                alt=\"\"\n              />",
