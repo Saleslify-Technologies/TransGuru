@@ -63,7 +63,7 @@
         ]
       ],
       "checklist": [
-        "USB OTG destekli Android 7.0 veya sonraki bir sürüm",
+        "USB OTG destekli Android 8.0 veya sonraki bir sürüm",
         "İki telefona da uyan bir veri kablosu",
         "Hedef telefonda tutulacak sohbetlerin ayrı bir yedeği",
         "İki telefonda yeterli şarj ve boş depolama alanı"
@@ -128,71 +128,10 @@
         ]
       ],
       "checklist": [
-        "USB OTG destekli Android 7.0 veya sonraki bir sürüm",
+        "USB OTG destekli Android 8.0 veya sonraki bir sürüm",
         "Geçerli yedeğin doğru 64 karakterli şifreleme anahtarı",
         "Geri yüklemenin mevcut verilerin yerini alacağını bilerek iPhone'daki önemli WhatsApp verilerinin ayrı bir kopyası",
         "Bir veri kablosu, yeterli şarj ve yeterli boş depolama alanı"
-      ]
-    },
-    "a2a": {
-      "title": [
-        "Android'den taşıyın.",
-        "Önemli olanları koruyun."
-      ],
-      "description": "İki telefonda TransGuru'yu açıp Wi-Fi'yi etkinleştirin, ardından eski ve yeni telefonu seçin. Uygulama, yedeği ve medyayı tarayıp aktarmanız için yerel bir bağlantı oluşturur. Bu bağlantı kullanılamıyorsa iki telefonu aynı Wi-Fi ağına bağlayın.",
-      "method": "Yerel erişim noktası veya aynı Wi-Fi ağı",
-      "icon": "wifi-high",
-      "overview": [
-        [
-          "Eski ve yeni telefonu seçin",
-          "Eski telefondaki sohbetleri bulun ve yeni telefonu hazırlayın."
-        ],
-        [
-          "Tarayın ve aktarın",
-          "Kodu yeni telefonda gösterin, ardından eski telefonla tarayıp verileri gönderin."
-        ],
-        [
-          "Yeni telefonda geri yükleyin",
-          "Yedeği WhatsApp'ta geri yüklemek için kılavuzu izleyin."
-        ]
-      ],
-      "requirements": [
-        "TransGuru'nun iki Android telefona da yüklenmiş olması",
-        "Uygulamanın yerel bağlantı oluşturabilmesi için Wi-Fi'nin etkin olması veya iki telefonun aynı Wi-Fi ağına bağlı olması",
-        "Geri yükleme için gerekliyse yedek şifreleme anahtarının kaydedilmiş olması"
-      ],
-      "caution": "Başlamadan önce özgün yedeği saklayın, geri yüklemeden sonra sohbetleri ve medyayı doğrulayın.",
-      "steps": [
-        [
-          "Her telefonu seçin",
-          "Bir cihazda Yeni telefon, diğerinde Eski telefon seçeneğini belirleyin"
-        ],
-        [
-          "Hazırlayın",
-          "Eski telefondaki yedeği bulun ve yeni telefonu hazırlayın"
-        ],
-        [
-          "Yükleyin ve anahtarı girin",
-          "WhatsApp'ı yeni telefona yeniden yükleyin ve gerektiğinde eski telefondaki anahtarı girin"
-        ],
-        [
-          "Tarayın",
-          "QR kodunu yeni telefonda gösterin ve eski telefonla tarayın"
-        ],
-        [
-          "Aktarın",
-          "Yedek ve medya gönderilirken yerel bağlantıyı etkin tutun"
-        ],
-        [
-          "Geri yükleyin",
-          "Yeni telefonda WhatsApp üzerinden geri yükleyin ve verilerinizi doğrulayın"
-        ]
-      ],
-      "checklist": [
-        "İki telefonda Android 7.0 veya sonraki bir sürüm ve USB OTG desteği",
-        "Paylaşılan sistem erişim noktasını manuel olarak etkinleştirmeden iki telefonda da Wi-Fi'nin açık olması",
-        "Özgün yedeğin ve gerekli tüm şifreleme anahtarlarının kaydedilmiş olması",
-        "Geri yüklemeden sonra yeni telefondaki önemli sohbetleri ve medyayı doğrulayacağım"
       ]
     }
   },

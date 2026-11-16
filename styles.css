@@ -373,7 +373,7 @@ h2 {
 }
 .route-tabs {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   padding: 6px;
   border: 1px solid var(--line);
   border-radius: 100px;

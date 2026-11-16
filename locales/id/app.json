@@ -63,7 +63,7 @@
         ]
       ],
       "checklist": [
-        "Android 7.0 atau lebih baru dengan dukungan USB OTG",
+        "Android 8.0 atau lebih baru dengan dukungan USB OTG",
         "Kabel data yang cocok untuk kedua ponsel",
         "Cadangan terpisah dari setiap obrolan untuk disimpan di telepon tujuan",
         "Baterai cukup dan penyimpanan gratis di kedua ponsel"
@@ -128,71 +128,10 @@
         ]
       ],
       "checklist": [
-        "Android 7.0 atau lebih baru dengan dukungan USB OTG",
+        "Android 8.0 atau lebih baru dengan dukungan USB OTG",
         "Kunci enkripsi 64 karakter yang benar untuk cadangan saat ini",
         "Salinan terpisah dari data penting WhatsApp di iPhone, dengan pemahaman bahwa pemulihan akan menggantikannya",
         "Kabel data, baterai cukup, dan penyimpanan kosong cukup"
-      ]
-    },
-    "a2a": {
-      "title": [
-        "Pindah dari Android.",
-        "Pertahankan hal yang penting."
-      ],
-      "description": "Buka TransGuru dan nyalakan Wi-Fi di kedua ponsel, lalu pilih ponsel lama dan baru. Aplikasi ini membuat koneksi lokal sehingga Anda dapat memindai dan mentransfer cadangan dan media. Jika koneksi ini tidak tersedia, sambungkan kedua ponsel ke jaringan Wi-Fi yang sama.",
-      "method": "Hotspot lokal atau Wi-Fi yang sama",
-      "icon": "wifi-high",
-      "overview": [
-        [
-          "Pilih ponsel lama dan baru",
-          "Temukan obrolan di ponsel lama dan siapkan ponsel baru."
-        ],
-        [
-          "Pindai dan transfer",
-          "Tunjukkan kode di ponsel baru, lalu pindai dan kirim data dari ponsel lama."
-        ],
-        [
-          "Pulihkan di ponsel baru",
-          "Ikuti panduan untuk memulihkan cadangan di WhatsApp."
-        ]
-      ],
-      "requirements": [
-        "TransGuru diinstal pada kedua ponsel Android",
-        "Wi-Fi diaktifkan sehingga aplikasi dapat membuat koneksi lokal, atau kedua ponsel terhubung ke jaringan Wi-Fi yang sama",
-        "Kunci enkripsi cadangan disimpan jika diperlukan untuk pemulihan"
-      ],
-      "caution": "Simpan cadangan asli sebelum Anda memulai, dan verifikasi obrolan dan media setelah pemulihan.",
-      "steps": [
-        [
-          "Pilih setiap telepon",
-          "Pilih Telepon baru di satu perangkat dan Telepon lama di perangkat lainnya"
-        ],
-        [
-          "Mempersiapkan",
-          "Temukan cadangan di ponsel lama dan siapkan ponsel baru"
-        ],
-        [
-          "Instal dan masukkan kuncinya",
-          "Instal ulang WhatsApp di ponsel baru dan berikan kunci dari ponsel lama bila diperlukan"
-        ],
-        [
-          "Pindai",
-          "Tunjukkan kode QR di ponsel baru dan pindai dengan ponsel lama"
-        ],
-        [
-          "Transfer",
-          "Jaga koneksi lokal tetap aktif saat cadangan dan media dikirim"
-        ],
-        [
-          "Memulihkan",
-          "Pulihkan di WhatsApp di ponsel baru dan verifikasi data Anda"
-        ]
-      ],
-      "checklist": [
-        "Android 7.0 atau lebih baru dan dukungan USB OTG di kedua ponsel",
-        "Wi-Fi diaktifkan di kedua ponsel, tanpa mengaktifkan hotspot sistem bersama secara manual",
-        "Cadangan asli dan kunci enkripsi apa pun yang diperlukan akan disimpan",
-        "Saya akan memverifikasi obrolan dan media penting di ponsel baru setelah pemulihan"
       ]
     }
   },

@@ -280,3 +280,15 @@ test("non-English catalogs do not copy long English prose", () => {
     }
   }
 });
+
+test("published transfer routes match the current Android app", () => {
+  for (const localeId of requestedLocaleIds) {
+    const { routes } = catalogs.get(`${localeId}/app`);
+    assert.match(catalogs.get(`${localeId}/home`)["home.p.051"], /8\.0/u);
+    assert.deepEqual(Object.keys(routes).sort(), ["a2i", "i2a"], localeId);
+    for (const route of Object.values(routes)) {
+      assert.match(route.checklist[0], /8\.0/u, `${localeId} minimum Android version`);
+      assert.doesNotMatch(route.checklist[0], /7\.0/u);
+    }
+  }
+});

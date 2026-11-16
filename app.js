@@ -102,7 +102,9 @@ expand.addEventListener("click", () => {
 const dialog = document.querySelector("#checklist-dialog");
 const checklistRoute = document.querySelector("#checklist-route");
 const checklistItems = document.querySelector("#checklist-items");
-const checklistState = { i2a: new Set(), a2i: new Set(), a2a: new Set() };
+const checklistState = Object.fromEntries(
+  Object.keys(routes).map((key) => [key, new Set()]),
+);
 let dialogTrigger = null;
 
 function updateProgress() {

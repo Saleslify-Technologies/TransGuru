@@ -63,7 +63,7 @@
         ]
       ],
       "checklist": [
-        "Android 7.0 o posterior con compatibilidad USB OTG",
+        "Android 8.0 o posterior con compatibilidad USB OTG",
         "Un cable de datos adecuado para ambos teléfonos",
         "Una copia independiente de los chats que quieras conservar en el teléfono de destino",
         "Suficiente batería y espacio libre en ambos teléfonos"
@@ -128,71 +128,10 @@
         ]
       ],
       "checklist": [
-        "Android 7.0 o posterior con compatibilidad USB OTG",
+        "Android 8.0 o posterior con compatibilidad USB OTG",
         "La clave de cifrado correcta de 64 caracteres para la copia actual",
         "Una copia independiente de los datos importantes de WhatsApp en el iPhone, sabiendo que la restauración los sustituirá",
         "Un cable de datos, suficiente batería y suficiente espacio libre"
-      ]
-    },
-    "a2a": {
-      "title": [
-        "Pasa de Android.",
-        "Conserva lo importante."
-      ],
-      "description": "Abre TransGuru y activa el Wi-Fi en ambos teléfonos. Después, indica cuál es el antiguo y cuál el nuevo. La aplicación crea una conexión local para que puedas escanear y transferir la copia y los archivos multimedia. Si esta conexión no está disponible, conecta ambos teléfonos a la misma red Wi-Fi.",
-      "method": "Punto de acceso local o la misma red Wi-Fi",
-      "icon": "wifi-high",
-      "overview": [
-        [
-          "Elige el teléfono antiguo y el nuevo",
-          "Localiza los chats en el teléfono antiguo y prepara el nuevo."
-        ],
-        [
-          "Escanea y transfiere",
-          "Muestra el código en el teléfono nuevo, escanéalo y envía los datos desde el antiguo."
-        ],
-        [
-          "Restaura en el teléfono nuevo",
-          "Sigue la guía para restaurar la copia de seguridad en WhatsApp."
-        ]
-      ],
-      "requirements": [
-        "TransGuru instalado en ambos teléfonos Android",
-        "Wi-Fi activado para que la aplicación pueda crear una conexión local, o ambos teléfonos conectados a la misma red Wi-Fi",
-        "La clave de cifrado de la copia guardada si es necesaria para restaurar"
-      ],
-      "caution": "Conserva la copia de seguridad original antes de empezar y verifica los chats y archivos multimedia después de restaurar.",
-      "steps": [
-        [
-          "Elegir cada teléfono",
-          "Selecciona Teléfono nuevo en un dispositivo y Teléfono antiguo en el otro"
-        ],
-        [
-          "Preparar",
-          "Localiza la copia en el teléfono antiguo y prepara el nuevo"
-        ],
-        [
-          "Instalar e introducir la clave",
-          "Reinstala WhatsApp en el teléfono nuevo e introduce la clave del teléfono antiguo cuando sea necesario"
-        ],
-        [
-          "Escanear",
-          "Muestra el código QR en el teléfono nuevo y escanéalo con el antiguo"
-        ],
-        [
-          "Transferir",
-          "Mantén activa la conexión local mientras se envían la copia y los archivos multimedia"
-        ],
-        [
-          "Restaurar",
-          "Restaura los datos en WhatsApp en el teléfono nuevo y verifícalos"
-        ]
-      ],
-      "checklist": [
-        "Android 7.0 o posterior y compatibilidad USB OTG en ambos teléfonos",
-        "Wi-Fi activado en ambos teléfonos, sin activar manualmente un punto de acceso compartido del sistema",
-        "La copia de seguridad original y cualquier clave de cifrado necesaria están guardadas",
-        "Verificaré los chats y archivos multimedia importantes en el teléfono nuevo después de restaurar"
       ]
     }
   },
