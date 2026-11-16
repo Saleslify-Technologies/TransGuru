@@ -63,7 +63,7 @@
         ]
       ],
       "checklist": [
-        "Android 7.0 or later with USB OTG support",
+        "Android 8.0 or later with USB OTG support",
         "A data cable that fits both phones",
         "A separate backup of any chats to keep on the destination phone",
         "Enough battery and free storage on both phones"
@@ -128,71 +128,10 @@
         ]
       ],
       "checklist": [
-        "Android 7.0 or later with USB OTG support",
+        "Android 8.0 or later with USB OTG support",
         "The correct 64-character encryption key for the current backup",
         "A separate copy of important WhatsApp data on the iPhone, with the understanding that restore replaces it",
         "A data cable, enough battery, and enough free storage"
-      ]
-    },
-    "a2a": {
-      "title": [
-        "Move from Android.",
-        "Keep what matters."
-      ],
-      "description": "Open TransGuru and turn on Wi-Fi on both phones, then choose the old and new phone. The app creates a local connection so you can scan and transfer the backup and media. If this connection is not available, connect both phones to the same Wi-Fi network.",
-      "method": "Local hotspot or same Wi-Fi",
-      "icon": "wifi-high",
-      "overview": [
-        [
-          "Choose the old and new phone",
-          "Find the chats on the old phone and prepare the new phone."
-        ],
-        [
-          "Scan and transfer",
-          "Show the code on the new phone, then scan it and send the data from the old phone."
-        ],
-        [
-          "Restore on the new phone",
-          "Follow the guide to restore the backup in WhatsApp."
-        ]
-      ],
-      "requirements": [
-        "TransGuru installed on both Android phones",
-        "Wi-Fi enabled so the app can create a local connection, or both phones connected to the same Wi-Fi network",
-        "The backup encryption key saved if it is required for restore"
-      ],
-      "caution": "Keep the original backup before you start, and verify chats and media after restore.",
-      "steps": [
-        [
-          "Choose each phone",
-          "Select New phone on one device and Old phone on the other"
-        ],
-        [
-          "Prepare",
-          "Find the backup on the old phone and prepare the new phone"
-        ],
-        [
-          "Install and enter the key",
-          "Reinstall WhatsApp on the new phone and provide the key from the old phone when required"
-        ],
-        [
-          "Scan",
-          "Show the QR code on the new phone and scan it with the old phone"
-        ],
-        [
-          "Transfer",
-          "Keep the local connection active while the backup and media are sent"
-        ],
-        [
-          "Restore",
-          "Restore in WhatsApp on the new phone and verify your data"
-        ]
-      ],
-      "checklist": [
-        "Android 7.0 or later and USB OTG support on both phones",
-        "Wi-Fi enabled on both phones, without manually enabling a shared system hotspot",
-        "The original backup and any required encryption key are saved",
-        "I will verify important chats and media on the new phone after restore"
       ]
     }
   },

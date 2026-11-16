@@ -63,7 +63,7 @@
         ]
       ],
       "checklist": [
-        "Android 7.0 oder neuer mit USB-OTG-Unterstützung",
+        "Android 8.0 oder neuer mit USB-OTG-Unterstützung",
         "Ein Datenkabel, das zu beiden Smartphones passt",
         "Eine separate Sicherung aller Chats, die auf dem Zielgerät erhalten bleiben sollen",
         "Ausreichend Akkuladung und freier Speicherplatz auf beiden Smartphones"
@@ -128,71 +128,10 @@
         ]
       ],
       "checklist": [
-        "Android 7.0 oder neuer mit USB-OTG-Unterstützung",
+        "Android 8.0 oder neuer mit USB-OTG-Unterstützung",
         "Der richtige 64-stellige Verschlüsselungsschlüssel der aktuellen Sicherung",
         "Eine separate Kopie wichtiger WhatsApp-Daten auf dem iPhone und das Wissen, dass die Wiederherstellung diese Daten ersetzt",
         "Ein Datenkabel, ausreichend Akkuladung und ausreichend freier Speicherplatz"
-      ]
-    },
-    "a2a": {
-      "title": [
-        "Von Android wechseln.",
-        "Wichtiges behalten."
-      ],
-      "description": "Öffne TransGuru und aktiviere WLAN auf beiden Smartphones. Wähle dann das alte und das neue Smartphone aus. Die App stellt eine lokale Verbindung her, über die du die Sicherung und Medien scannen und übertragen kannst. Wenn diese Verbindung nicht verfügbar ist, verbinde beide Smartphones mit demselben WLAN.",
-      "method": "Lokaler Hotspot oder dasselbe WLAN",
-      "icon": "wifi-high",
-      "overview": [
-        [
-          "Altes und neues Smartphone auswählen",
-          "Finde die Chats auf dem alten Smartphone und bereite das neue Smartphone vor."
-        ],
-        [
-          "Scannen und übertragen",
-          "Zeige den Code auf dem neuen Smartphone an, scanne ihn und sende die Daten vom alten Smartphone."
-        ],
-        [
-          "Auf dem neuen Smartphone wiederherstellen",
-          "Folge der Anleitung, um die Sicherung in WhatsApp wiederherzustellen."
-        ]
-      ],
-      "requirements": [
-        "TransGuru ist auf beiden Android-Smartphones installiert",
-        "WLAN ist aktiviert, damit die App eine lokale Verbindung herstellen kann, oder beide Smartphones sind mit demselben WLAN verbunden",
-        "Der Verschlüsselungsschlüssel der Sicherung wurde gespeichert, falls er zur Wiederherstellung benötigt wird"
-      ],
-      "caution": "Bewahre vor dem Start die ursprüngliche Sicherung auf und prüfe nach der Wiederherstellung deine Chats und Medien.",
-      "steps": [
-        [
-          "Smartphones zuordnen",
-          "Wähle auf einem Gerät Neues Smartphone und auf dem anderen Altes Smartphone aus"
-        ],
-        [
-          "Vorbereiten",
-          "Finde die Sicherung auf dem alten Smartphone und bereite das neue Smartphone vor"
-        ],
-        [
-          "Installieren und Schlüssel eingeben",
-          "Installiere WhatsApp auf dem neuen Smartphone neu und gib bei Aufforderung den Schlüssel vom alten Smartphone ein"
-        ],
-        [
-          "Scannen",
-          "Zeige den QR-Code auf dem neuen Smartphone an und scanne ihn mit dem alten Smartphone"
-        ],
-        [
-          "Übertragen",
-          "Lass die lokale Verbindung aktiv, während die Sicherung und die Medien gesendet werden"
-        ],
-        [
-          "Wiederherstellen",
-          "Stelle die Daten in WhatsApp auf dem neuen Smartphone wieder her und prüfe sie"
-        ]
-      ],
-      "checklist": [
-        "Android 7.0 oder neuer und USB-OTG-Unterstützung auf beiden Smartphones",
-        "WLAN ist auf beiden Smartphones aktiviert, ohne manuell einen gemeinsamen System-Hotspot einzuschalten",
-        "Die ursprüngliche Sicherung und alle benötigten Verschlüsselungsschlüssel sind gespeichert",
-        "Ich werde wichtige Chats und Medien nach der Wiederherstellung auf dem neuen Smartphone prüfen"
       ]
     }
   },

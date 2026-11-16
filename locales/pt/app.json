@@ -63,7 +63,7 @@
         ]
       ],
       "checklist": [
-        "Android 7.0 ou posterior com suporte a USB OTG",
+        "Android 8.0 ou posterior com suporte a USB OTG",
         "Um cabo de dados compatível com os dois celulares",
         "Um backup separado das conversas que você quer manter no celular de destino",
         "Bateria e espaço livre suficientes nos dois celulares"
@@ -128,71 +128,10 @@
         ]
       ],
       "checklist": [
-        "Android 7.0 ou posterior com suporte a USB OTG",
+        "Android 8.0 ou posterior com suporte a USB OTG",
         "A chave de criptografia correta de 64 caracteres do backup atual",
         "Uma cópia separada dos dados importantes do WhatsApp no iPhone, sabendo que a restauração os substituirá",
         "Um cabo de dados, bateria suficiente e espaço livre suficiente"
-      ]
-    },
-    "a2a": {
-      "title": [
-        "Mude do Android.",
-        "Mantenha o que importa."
-      ],
-      "description": "Abra o TransGuru e ative o Wi-Fi nos dois celulares. Depois, escolha qual é o celular antigo e qual é o novo. O aplicativo cria uma conexão local para você escanear e transferir o backup e as mídias. Se essa conexão não estiver disponível, conecte os dois celulares à mesma rede Wi-Fi.",
-      "method": "Ponto de acesso local ou mesma rede Wi-Fi",
-      "icon": "wifi-high",
-      "overview": [
-        [
-          "Escolha o celular antigo e o novo",
-          "Encontre as conversas no celular antigo e prepare o novo."
-        ],
-        [
-          "Escaneie e transfira",
-          "Exiba o código no celular novo, escaneie e envie os dados do celular antigo."
-        ],
-        [
-          "Restaure no celular novo",
-          "Siga o guia para restaurar o backup no WhatsApp."
-        ]
-      ],
-      "requirements": [
-        "TransGuru instalado nos dois celulares Android",
-        "Wi-Fi ativado para o aplicativo criar uma conexão local, ou os dois celulares conectados à mesma rede Wi-Fi",
-        "A chave de criptografia do backup salva, caso seja necessária para a restauração"
-      ],
-      "caution": "Mantenha o backup original antes de começar e verifique as conversas e mídias após a restauração.",
-      "steps": [
-        [
-          "Escolher cada celular",
-          "Selecione Celular novo em um dispositivo e Celular antigo no outro"
-        ],
-        [
-          "Preparar",
-          "Encontre o backup no celular antigo e prepare o novo"
-        ],
-        [
-          "Instalar e inserir a chave",
-          "Reinstale o WhatsApp no celular novo e informe a chave do celular antigo quando necessário"
-        ],
-        [
-          "Escanear",
-          "Exiba o código QR no celular novo e escaneie com o antigo"
-        ],
-        [
-          "Transferir",
-          "Mantenha a conexão local ativa enquanto o backup e as mídias são enviados"
-        ],
-        [
-          "Restaurar",
-          "Restaure no WhatsApp do celular novo e verifique seus dados"
-        ]
-      ],
-      "checklist": [
-        "Android 7.0 ou posterior e suporte a USB OTG nos dois celulares",
-        "Wi-Fi ativado nos dois celulares, sem ativar manualmente um ponto de acesso compartilhado do sistema",
-        "O backup original e todas as chaves de criptografia necessárias estão salvos",
-        "Vou verificar as conversas e mídias importantes no celular novo após a restauração"
       ]
     }
   },

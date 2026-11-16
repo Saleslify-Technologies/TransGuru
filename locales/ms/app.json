@@ -63,7 +63,7 @@
         ]
       ],
       "checklist": [
-        "Android 7.0 atau lebih baru dengan sokongan USB OTG",
+        "Android 8.0 atau lebih baru dengan sokongan USB OTG",
         "Kabel data yang sesuai dengan kedua-dua telefon",
         "Sandaran berasingan bagi sebarang sembang untuk disimpan di telefon destinasi",
         "Bateri yang mencukupi dan storan percuma pada kedua-dua telefon"
@@ -128,71 +128,10 @@
         ]
       ],
       "checklist": [
-        "Android 7.0 atau lebih baru dengan sokongan USB OTG",
+        "Android 8.0 atau lebih baru dengan sokongan USB OTG",
         "Kunci penyulitan 64 aksara yang betul untuk sandaran semasa",
         "Salinan berasingan data WhatsApp yang penting pada iPhone, dengan pemahaman bahawa memulihkan menggantikannya",
         "Kabel data, bateri yang mencukupi dan storan percuma yang mencukupi"
-      ]
-    },
-    "a2a": {
-      "title": [
-        "Beralih dari Android.",
-        "Simpan apa yang penting."
-      ],
-      "description": "Buka TransGuru dan hidupkan Wi-Fi pada kedua-dua telefon, kemudian pilih telefon lama dan baharu. Aplikasi ini mencipta sambungan setempat supaya anda boleh mengimbas dan memindahkan sandaran dan media. Jika sambungan ini tidak tersedia, sambungkan kedua-dua telefon ke rangkaian Wi-Fi yang sama.",
-      "method": "Tempat liputan tempatan atau Wi-Fi yang sama",
-      "icon": "wifi-high",
-      "overview": [
-        [
-          "Pilih telefon lama dan baharu",
-          "Cari sembang pada telefon lama dan sediakan telefon baharu."
-        ],
-        [
-          "Imbas dan pindahkan",
-          "Tunjukkan kod pada telefon baharu, kemudian imbas dan hantar data daripada telefon lama."
-        ],
-        [
-          "Pulihkan pada telefon baharu",
-          "Ikuti panduan untuk memulihkan sandaran dalam WhatsApp."
-        ]
-      ],
-      "requirements": [
-        "TransGuru dipasang pada kedua-dua telefon Android",
-        "Wi-Fi didayakan supaya apl boleh membuat sambungan setempat, atau kedua-dua telefon disambungkan ke rangkaian Wi-Fi yang sama",
-        "Kunci penyulitan sandaran disimpan jika ia diperlukan untuk pemulihan"
-      ],
-      "caution": "Simpan sandaran asal sebelum anda memulakan dan sahkan sembang dan media selepas dipulihkan.",
-      "steps": [
-        [
-          "Pilih setiap telefon",
-          "Pilih Telefon baharu pada satu peranti dan Telefon lama pada peranti lain"
-        ],
-        [
-          "Sediakan",
-          "Cari sandaran pada telefon lama dan sediakan telefon baharu"
-        ],
-        [
-          "Pasang dan masukkan kekunci",
-          "Pasang semula WhatsApp pada telefon baharu dan berikan kunci daripada telefon lama apabila diperlukan"
-        ],
-        [
-          "Imbas",
-          "Tunjukkan kod QR pada telefon baharu dan imbasnya dengan telefon lama"
-        ],
-        [
-          "Pemindahan",
-          "Pastikan sambungan tempatan aktif semasa sandaran dan media dihantar"
-        ],
-        [
-          "Pulihkan",
-          "Pulihkan dalam WhatsApp pada telefon baharu dan sahkan data anda"
-        ]
-      ],
-      "checklist": [
-        "Android 7.0 atau lebih baru dan sokongan USB OTG pada kedua-dua telefon",
-        "Wi-Fi didayakan pada kedua-dua telefon, tanpa mendayakan hotspot sistem kongsi secara manual",
-        "Sandaran asal dan sebarang kunci penyulitan yang diperlukan disimpan",
-        "Saya akan mengesahkan sembang dan media penting pada telefon baharu selepas dipulihkan"
       ]
     }
   },
