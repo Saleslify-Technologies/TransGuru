@@ -52,8 +52,6 @@
   "privacy.td.051": "Après votre approbation de la demande système, connecter et identifier un iPhone pour un transfert de sauvegarde ou de restauration",
   "privacy.td.056": "Sélecteur de photos système ou sélection dans la galerie",
   "privacy.td.057": "Lire uniquement l’image de clé sélectionnée lorsque vous choisissez la reconnaissance de capture d’écran",
-  "privacy.td.058": "Gestion des processus d’arrière-plan de la galerie sur les anciens systèmes",
-  "privacy.td.059": "Après l’utilisation du sélecteur de galerie de secours, l’app peut demander à Android d’arrêter le processus en arrière-plan de cette galerie pour éviter qu’elle ne prenne le contrôle de la connexion USB. Cela ne donne pas accès aux photos que vous n’avez pas sélectionnées.",
   "privacy.td.060": "Notifications et services au premier plan",
   "privacy.td.061": "Afficher la progression pendant la migration et aider la connexion et la tâche d’arrière-plan à continuer",
   "privacy.td.062": "Contrôle de l’état d’installation et procédure système de désinstallation d’apps précises",

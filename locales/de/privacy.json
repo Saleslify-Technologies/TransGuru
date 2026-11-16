@@ -52,8 +52,6 @@
   "privacy.td.051": "Nach Bestätigung der Systemabfrage ein iPhone für eine Sicherungs- oder Wiederherstellungsübertragung verbinden und erkennen",
   "privacy.td.056": "System-Fotoauswahl oder Galerieauswahl",
   "privacy.td.057": "Nur das Schlüsselbild lesen, das du bei der Screenshot-Erkennung auswählst",
-  "privacy.td.058": "Verwaltung von Galerie-Hintergrundprozessen auf älteren Systemen",
-  "privacy.td.059": "Nachdem die ersatzweise Galerieauswahl verwendet wurde, kann die App Android auffordern, den Hintergrundprozess dieser Galerie-App zu beenden, damit sie nicht die Kontrolle über die USB-Verbindung übernimmt. Dadurch erhält die App keinen Zugriff auf Fotos, die du nicht ausgewählt hast.",
   "privacy.td.060": "Benachrichtigungen und Vordergrunddienste",
   "privacy.td.061": "Den Fortschritt während der Migration anzeigen und dafür sorgen, dass die Verbindung und die Hintergrundaufgabe weiterlaufen können",
   "privacy.td.062": "Prüfung des Installationsstatus und Systemablauf zur Deinstallation bestimmter Apps",
