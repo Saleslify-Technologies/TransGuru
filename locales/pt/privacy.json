@@ -52,8 +52,6 @@
   "privacy.td.051": "Após a aprovação na solicitação do sistema, conectar-se a um iPhone e identificá-lo para transferir um backup ou uma restauração",
   "privacy.td.056": "Seletor de fotos do sistema ou seleção na galeria",
   "privacy.td.057": "Ler somente a imagem da chave que você selecionar ao escolher o reconhecimento de captura de tela",
-  "privacy.td.058": "Gerenciamento de processos em segundo plano da galeria em sistemas antigos",
-  "privacy.td.059": "Após o uso do seletor alternativo da galeria, o aplicativo pode pedir ao Android que interrompa o processo em segundo plano desse aplicativo de galeria para impedir que ele assuma o controle da conexão USB. Isso não concede acesso a fotos que você não selecionou.",
   "privacy.td.060": "Notificações e serviços em primeiro plano",
   "privacy.td.061": "Exibir o progresso durante a migração e ajudar a manter a conexão e a tarefa em segundo plano",
   "privacy.td.062": "Verificações do estado de instalação e fluxo de desinstalação do sistema para aplicativos específicos",

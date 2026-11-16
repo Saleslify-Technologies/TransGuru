@@ -52,8 +52,6 @@
   "privacy.td.051": "After you approve the system prompt, connect to and identify an iPhone for backup or restore transfer",
   "privacy.td.056": "System photo picker or gallery selection",
   "privacy.td.057": "Read only the key image that you select when you choose screenshot recognition",
-  "privacy.td.058": "Gallery background-process management on older systems",
-  "privacy.td.059": "After the fallback gallery picker is used, the app may ask Android to stop that gallery app's background process so it does not take control of the USB connection. This does not grant access to photos you did not select.",
   "privacy.td.060": "Notifications and foreground services",
   "privacy.td.061": "Show progress during migration and help the connection and background task continue",
   "privacy.td.062": "Installation-status checks and system uninstall flow for specified apps",
